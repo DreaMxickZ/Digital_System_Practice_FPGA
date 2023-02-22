@@ -1,0 +1,108 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Lab6new.twx Lab6new.ncd -o Lab6new.twr Lab6new.pcf -ucf
+Lab6new.ucf
+
+Design file:              Lab6new.ncd
+Physical constraint file: Lab6new.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK_Switch
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+CLR_Switch  |   -0.029(R)|      SLOW  |    1.147(R)|      SLOW  |XLXI_5/XLXN_10    |   0.000|
+            |    0.382(R)|      SLOW  |    1.075(R)|      SLOW  |XLXI_6/XLXN_10    |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CLK_Switch to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+XLXN_44     |        11.147(R)|      SLOW  |         5.851(R)|      FAST  |XLXI_5/XLXN_10    |   0.000|
+            |        11.427(R)|      SLOW  |         5.710(R)|      FAST  |XLXI_6/XLXN_10    |   0.000|
+a           |        11.499(R)|      SLOW  |         5.958(R)|      FAST  |XLXI_5/XLXN_10    |   0.000|
+            |        11.609(R)|      SLOW  |         5.790(R)|      FAST  |XLXI_6/XLXN_10    |   0.000|
+b           |        10.580(R)|      SLOW  |         5.829(R)|      FAST  |XLXI_5/XLXN_10    |   0.000|
+            |        10.797(R)|      SLOW  |         5.803(R)|      FAST  |XLXI_6/XLXN_10    |   0.000|
+c           |        10.539(R)|      SLOW  |         5.726(R)|      FAST  |XLXI_5/XLXN_10    |   0.000|
+            |        10.649(R)|      SLOW  |         5.700(R)|      FAST  |XLXI_6/XLXN_10    |   0.000|
+d           |        11.097(R)|      SLOW  |         5.769(R)|      FAST  |XLXI_5/XLXN_10    |   0.000|
+            |        11.207(R)|      SLOW  |         5.659(R)|      FAST  |XLXI_6/XLXN_10    |   0.000|
+e           |        10.609(R)|      SLOW  |         5.563(R)|      FAST  |XLXI_5/XLXN_10    |   0.000|
+            |        10.719(R)|      SLOW  |         5.607(R)|      FAST  |XLXI_6/XLXN_10    |   0.000|
+f           |        11.165(R)|      SLOW  |         6.053(R)|      FAST  |XLXI_5/XLXN_10    |   0.000|
+            |        11.275(R)|      SLOW  |         5.885(R)|      FAST  |XLXI_6/XLXN_10    |   0.000|
+g           |        11.354(R)|      SLOW  |         6.031(R)|      FAST  |XLXI_5/XLXN_10    |   0.000|
+            |        11.464(R)|      SLOW  |         5.921(R)|      FAST  |XLXI_6/XLXN_10    |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock P123 to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+a           |        11.074(R)|      SLOW  |         5.044(R)|      FAST  |P123_BUFGP        |   0.000|
+b           |        10.155(R)|      SLOW  |         5.299(R)|      FAST  |P123_BUFGP        |   0.000|
+c           |        10.114(R)|      SLOW  |         5.196(R)|      FAST  |P123_BUFGP        |   0.000|
+d           |        10.672(R)|      SLOW  |         4.763(R)|      FAST  |P123_BUFGP        |   0.000|
+e           |        10.184(R)|      SLOW  |         4.967(R)|      FAST  |P123_BUFGP        |   0.000|
+f           |        10.740(R)|      SLOW  |         5.145(R)|      FAST  |P123_BUFGP        |   0.000|
+g           |        10.929(R)|      SLOW  |         5.025(R)|      FAST  |P123_BUFGP        |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK_Switch
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_Switch     |    2.835|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock P123
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+P123           |    3.840|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon Oct 03 17:06:21 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

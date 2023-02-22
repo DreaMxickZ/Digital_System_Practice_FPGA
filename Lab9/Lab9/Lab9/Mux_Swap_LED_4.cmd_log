@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan6 -refsym Mux_Swap_LED_4 C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Mux_Swap_LED_4.sch C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Mux_Swap_LED_4.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog Mux_Swap_LED_4_drc.vf -w C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Mux_Swap_LED_4.sch 
+sch2verilog -intstyle ise -family spartan6 -tionly {} -tiext tfi -w C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Mux_Swap_LED_4.sch Mux_Swap_LED_4.tfi 

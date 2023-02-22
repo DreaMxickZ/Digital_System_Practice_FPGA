@@ -1,0 +1,379 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Reading design: Lab6new.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Lab6new.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Lab6new"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : Lab6new
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\sevensegsixnew.vf" into library work
+Parsing module <sevensegsixnew>.
+Analyzing Verilog file "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\SwapCommon0_1.vf" into library work
+Parsing module <SwapCommon0_1>.
+Analyzing Verilog file "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\MuxA_D_CLK.vf" into library work
+Parsing module <M2_1_HXILINX_MuxA_D_CLK>.
+Parsing module <MuxA_D_CLK>.
+Analyzing Verilog file "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\FFFFISNH.vf" into library work
+Parsing module <FJKC_HXILINX_FFFFISNH>.
+Parsing module <FFFFISNH>.
+Analyzing Verilog file "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\CheckCompare.vf" into library work
+Parsing module <CheckCompare>.
+Analyzing Verilog file "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\Lab6new.vf" into library work
+Parsing module <Lab6new>.
+Parsing VHDL file "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\ModuleHandMake\divider\DIVIDER60.vhd" into library work
+Parsing entity <DIVIDER60>.
+Parsing architecture <RTL> of entity <divider60>.
+Parsing VHDL file "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\ModuleHandMake\divider\DIVIDER25.vhd" into library work
+Parsing entity <DIVIDER25>.
+Parsing architecture <RTL> of entity <divider25>.
+Parsing VHDL file "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\ModuleHandMake\divider\DIVIDER10.vhd" into library work
+Parsing entity <DIVIDER10>.
+Parsing architecture <RTL> of entity <divider10>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Lab6new>.
+
+Elaborating module <CheckCompare>.
+
+Elaborating module <XNOR2>.
+
+Elaborating module <AND4>.
+
+Elaborating module <SwapCommon0_1>.
+
+Elaborating module <INV>.
+WARNING:HDLCompiler:634 - "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\SwapCommon0_1.vf" Line 32: Net <CLKIN_DUMMY> does not have a driver.
+
+Elaborating module <MuxA_D_CLK>.
+
+Elaborating module <M2_1_HXILINX_MuxA_D_CLK>.
+
+Elaborating module <FFFFISNH>.
+
+Elaborating module <FJKC_HXILINX_FFFFISNH>.
+
+Elaborating module <AND2>.
+
+Elaborating module <AND3>.
+
+Elaborating module <VCC>.
+
+Elaborating module <AND2B1>.
+Going to vhdl side to elaborate module DIVIDER60
+
+Elaborating entity <DIVIDER60> (architecture <RTL>) with generics from library <work>.
+Back to verilog to continue elaboration
+Going to vhdl side to elaborate module DIVIDER10
+
+Elaborating entity <DIVIDER10> (architecture <RTL>) with generics from library <work>.
+Back to verilog to continue elaboration
+Going to vhdl side to elaborate module DIVIDER25
+
+Elaborating entity <DIVIDER25> (architecture <RTL>) with generics from library <work>.
+Back to verilog to continue elaboration
+
+Elaborating module <sevensegsixnew>.
+
+Elaborating module <AND2B2>.
+
+Elaborating module <OR4>.
+
+Elaborating module <OR3>.
+
+Elaborating module <OR3B1>.
+
+Elaborating module <OR2>.
+
+Elaborating module <AND3B2>.
+
+Elaborating module <OR5>.
+
+Elaborating module <AND3B1>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Lab6new>.
+    Related source file is "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\Lab6new.vf".
+    Summary:
+	no macro.
+Unit <Lab6new> synthesized.
+
+Synthesizing Unit <CheckCompare>.
+    Related source file is "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\CheckCompare.vf".
+    Summary:
+	no macro.
+Unit <CheckCompare> synthesized.
+
+Synthesizing Unit <SwapCommon0_1>.
+    Related source file is "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\SwapCommon0_1.vf".
+WARNING:Xst:653 - Signal <CLKIN_DUMMY> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <SwapCommon0_1> synthesized.
+
+Synthesizing Unit <MuxA_D_CLK>.
+    Related source file is "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\MuxA_D_CLK.vf".
+    Set property "HU_SET = XLXI_1_0" for instance <XLXI_1>.
+    Set property "HU_SET = XLXI_2_1" for instance <XLXI_2>.
+    Set property "HU_SET = XLXI_3_2" for instance <XLXI_3>.
+    Set property "HU_SET = XLXI_4_3" for instance <XLXI_4>.
+    Summary:
+	no macro.
+Unit <MuxA_D_CLK> synthesized.
+
+Synthesizing Unit <M2_1_HXILINX_MuxA_D_CLK>.
+    Related source file is "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\MuxA_D_CLK.vf".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <M2_1_HXILINX_MuxA_D_CLK> synthesized.
+
+Synthesizing Unit <FFFFISNH>.
+    Related source file is "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\FFFFISNH.vf".
+    Set property "HU_SET = XLXI_1_4" for instance <XLXI_1>.
+    Set property "HU_SET = XLXI_2_5" for instance <XLXI_2>.
+    Set property "HU_SET = XLXI_3_6" for instance <XLXI_3>.
+    Set property "HU_SET = XLXI_4_7" for instance <XLXI_4>.
+    Summary:
+	no macro.
+Unit <FFFFISNH> synthesized.
+
+Synthesizing Unit <FJKC_HXILINX_FFFFISNH>.
+    Related source file is "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\FFFFISNH.vf".
+        INIT = 1'b0
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <FJKC_HXILINX_FFFFISNH> synthesized.
+
+Synthesizing Unit <DIVIDER60>.
+    Related source file is "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\ModuleHandMake\divider\DIVIDER60.vhd".
+        fin = 25000000
+        fout = 2000
+    Found 1-bit register for signal <qs>.
+    Found 13-bit register for signal <COUNT>.
+    Found 13-bit adder for signal <COUNT[12]_GND_17_o_add_1_OUT> created at line 23.
+    Found 13-bit comparator greater for signal <n0000> created at line 19
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  14 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <DIVIDER60> synthesized.
+
+Synthesizing Unit <DIVIDER10>.
+    Related source file is "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\ModuleHandMake\divider\DIVIDER10.vhd".
+        fin = 25000000
+        fout = 1
+    Found 1-bit register for signal <qs>.
+    Found 24-bit register for signal <COUNT>.
+    Found 24-bit adder for signal <COUNT[23]_GND_18_o_add_1_OUT> created at line 23.
+    Found 24-bit comparator greater for signal <n0000> created at line 19
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <DIVIDER10> synthesized.
+
+Synthesizing Unit <DIVIDER25>.
+    Related source file is "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\ModuleHandMake\divider\DIVIDER25.vhd".
+        fin = 25000000
+        fout = 2
+    Found 1-bit register for signal <qs>.
+    Found 23-bit register for signal <COUNT>.
+    Found 23-bit adder for signal <COUNT[22]_GND_19_o_add_1_OUT> created at line 23.
+    Found 23-bit comparator greater for signal <n0000> created at line 19
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  24 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <DIVIDER25> synthesized.
+
+Synthesizing Unit <sevensegsixnew>.
+    Related source file is "C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\Lab6New\sevensegsixnew.vf".
+    Summary:
+	no macro.
+Unit <sevensegsixnew> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 13-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+# Registers                                            : 14
+ 1-bit register                                        : 11
+ 13-bit register                                       : 1
+ 23-bit register                                       : 1
+ 24-bit register                                       : 1
+# Comparators                                          : 3
+ 13-bit comparator greater                             : 1
+ 23-bit comparator greater                             : 1
+ 24-bit comparator greater                             : 1
+# Multiplexers                                         : 20
+ 1-bit 2-to-1 multiplexer                              : 20
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <DIVIDER10>.
+The following registers are absorbed into counter <COUNT>: 1 register on signal <COUNT>.
+Unit <DIVIDER10> synthesized (advanced).
+
+Synthesizing (advanced) Unit <DIVIDER25>.
+The following registers are absorbed into counter <COUNT>: 1 register on signal <COUNT>.
+Unit <DIVIDER25> synthesized (advanced).
+
+Synthesizing (advanced) Unit <DIVIDER60>.
+The following registers are absorbed into counter <COUNT>: 1 register on signal <COUNT>.
+Unit <DIVIDER60> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 3
+ 13-bit up counter                                     : 1
+ 23-bit up counter                                     : 1
+ 24-bit up counter                                     : 1
+# Registers                                            : 11
+ Flip-Flops                                            : 11
+# Comparators                                          : 3
+ 13-bit comparator greater                             : 1
+ 23-bit comparator greater                             : 1
+ 24-bit comparator greater                             : 1
+# Multiplexers                                         : 16
+ 1-bit 2-to-1 multiplexer                              : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+ERROR:Xst:528 - Multi-source in Unit <Lab6new> on signal <XLXN_62>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <XLXI_7/qs>
+   Dangling signal <XLXI_2/CLKIN_DUMMY> in Unit <SwapCommon0_1> is tied to 0 by XST
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.95 secs
+ 
+--> 
+
+Total memory usage is 4485796 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

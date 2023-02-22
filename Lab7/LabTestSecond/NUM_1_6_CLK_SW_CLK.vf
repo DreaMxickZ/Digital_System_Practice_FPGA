@@ -1,0 +1,121 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : NUM_1_6_CLK_SW_CLK.vf
+// /___/   /\     Timestamp : 10/09/2022 01:37:10
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/NUM_1_6_CLK_SW_CLK.vf -w C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/NUM_1_6_CLK_SW_CLK.sch
+//Design Name: NUM_1_6_CLK_SW_CLK
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FJKC_HXILINX_NUM_1_6_CLK_SW_CLK(Q, C, CLR, J, K);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              J;
+   input              K;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+
+
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else
+        begin
+           if(!J)
+           begin
+              if(K)
+              Q <= 1'b0;
+           end
+           else
+           begin
+              if(!K)
+              Q <= 1'b1;
+              else 
+              Q <= !Q;
+           end
+        end
+     end
+   
+endmodule
+`timescale 1ns / 1ps
+
+module NUM_1_6_CLK_SW_CLK(CLK, 
+                          CLR, 
+                          SW_CLK, 
+                          A, 
+                          B, 
+                          C, 
+                          TC);
+
+    input CLK;
+    input CLR;
+    input SW_CLK;
+   output A;
+   output B;
+   output C;
+   output TC;
+   
+   wire XLXN_2;
+   wire XLXN_6;
+   wire XLXN_9;
+   wire XLXN_11;
+   wire A_DUMMY;
+   wire B_DUMMY;
+   wire C_DUMMY;
+   wire TC_DUMMY;
+   
+   assign A = A_DUMMY;
+   assign B = B_DUMMY;
+   assign C = C_DUMMY;
+   assign TC = TC_DUMMY;
+   (* HU_SET = "XLXI_1_15" *) 
+   FJKC_HXILINX_NUM_1_6_CLK_SW_CLK  XLXI_1 (.C(XLXN_11), 
+                                           .CLR(XLXN_9), 
+                                           .J(XLXN_6), 
+                                           .K(XLXN_6), 
+                                           .Q(A_DUMMY));
+   (* HU_SET = "XLXI_2_16" *) 
+   FJKC_HXILINX_NUM_1_6_CLK_SW_CLK  XLXI_2 (.C(XLXN_11), 
+                                           .CLR(XLXN_9), 
+                                           .J(A_DUMMY), 
+                                           .K(A_DUMMY), 
+                                           .Q(B_DUMMY));
+   (* HU_SET = "XLXI_3_17" *) 
+   FJKC_HXILINX_NUM_1_6_CLK_SW_CLK  XLXI_3 (.C(XLXN_11), 
+                                           .CLR(XLXN_9), 
+                                           .J(XLXN_2), 
+                                           .K(XLXN_2), 
+                                           .Q(C_DUMMY));
+   AND2  XLXI_4 (.I0(B_DUMMY), 
+                .I1(A_DUMMY), 
+                .O(XLXN_2));
+   VCC  XLXI_5 (.P(XLXN_6));
+   AND2  XLXI_6 (.I0(SW_CLK), 
+                .I1(CLK), 
+                .O(XLXN_11));
+   OR2  XLXI_13 (.I0(CLR), 
+                .I1(TC_DUMMY), 
+                .O(XLXN_9));
+   AND3B1  XLXI_14 (.I0(A_DUMMY), 
+                   .I1(B_DUMMY), 
+                   .I2(C_DUMMY), 
+                   .O(TC_DUMMY));
+endmodule

@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : SwapCommon0_1.vf
+// /___/   /\     Timestamp : 10/03/2022 17:02:18
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/SwapCommon0_1.vf -w C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6/SwapCommon0_1.sch
+//Design Name: SwapCommon0_1
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module SwapCommon0_1(CLKIN, 
+                     COMMON0, 
+                     XLXN_5);
+
+   output CLKIN;
+   output COMMON0;
+   output XLXN_5;
+   
+   wire XLXN_9;
+   wire CLKIN_DUMMY;
+   
+   assign CLKIN = CLKIN_DUMMY;
+   INV  XLXI_2 (.I(CLKIN_DUMMY), 
+               .O(XLXN_5));
+   INV  XLXI_4 (.I(XLXN_9), 
+               .O(COMMON0));
+   INV  XLXI_5 (.I(CLKIN_DUMMY), 
+               .O(XLXN_9));
+endmodule

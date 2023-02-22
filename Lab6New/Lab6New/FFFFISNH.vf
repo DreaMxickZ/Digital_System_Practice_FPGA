@@ -1,0 +1,140 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : FFFFISNH.vf
+// /___/   /\     Timestamp : 10/03/2022 17:02:19
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/FFFFISNH.vf -w C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6/FFFFISNH.sch
+//Design Name: FFFFISNH
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FJKC_HXILINX_FFFFISNH(Q, C, CLR, J, K);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              J;
+   input              K;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+
+
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else
+        begin
+           if(!J)
+           begin
+              if(K)
+              Q <= 1'b0;
+           end
+           else
+           begin
+              if(!K)
+              Q <= 1'b1;
+              else 
+              Q <= !Q;
+           end
+        end
+     end
+   
+endmodule
+`timescale 1ns / 1ps
+
+module FFFFISNH(CLK, 
+                clkswitch, 
+                CLRIN, 
+                A, 
+                B, 
+                C, 
+                D);
+
+    input CLK;
+    input clkswitch;
+    input CLRIN;
+   output A;
+   output B;
+   output C;
+   output D;
+   
+   wire XLXN_1;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_10;
+   wire XLXN_17;
+   wire XLXN_29;
+   wire XLXN_38;
+   wire XLXN_42;
+   wire XLXN_43;
+   wire A_DUMMY;
+   wire B_DUMMY;
+   wire C_DUMMY;
+   wire D_DUMMY;
+   
+   assign A = A_DUMMY;
+   assign B = B_DUMMY;
+   assign C = C_DUMMY;
+   assign D = D_DUMMY;
+   (* HU_SET = "XLXI_1_4" *) 
+   FJKC_HXILINX_FFFFISNH  XLXI_1 (.C(XLXN_10), 
+                                 .CLR(XLXN_29), 
+                                 .J(XLXN_1), 
+                                 .K(XLXN_42), 
+                                 .Q(D_DUMMY));
+   (* HU_SET = "XLXI_2_5" *) 
+   FJKC_HXILINX_FFFFISNH  XLXI_2 (.C(XLXN_10), 
+                                 .CLR(XLXN_29), 
+                                 .J(XLXN_38), 
+                                 .K(XLXN_38), 
+                                 .Q(C_DUMMY));
+   (* HU_SET = "XLXI_3_6" *) 
+   FJKC_HXILINX_FFFFISNH  XLXI_3 (.C(XLXN_10), 
+                                 .CLR(XLXN_29), 
+                                 .J(XLXN_17), 
+                                 .K(XLXN_38), 
+                                 .Q(B_DUMMY));
+   (* HU_SET = "XLXI_4_7" *) 
+   FJKC_HXILINX_FFFFISNH  XLXI_4 (.C(XLXN_10), 
+                                 .CLR(XLXN_29), 
+                                 .J(XLXN_5), 
+                                 .K(XLXN_6), 
+                                 .Q(A_DUMMY));
+   AND2  XLXI_5 (.I0(B_DUMMY), 
+                .I1(A_DUMMY), 
+                .O(XLXN_38));
+   AND3  XLXI_6 (.I0(C_DUMMY), 
+                .I1(B_DUMMY), 
+                .I2(A_DUMMY), 
+                .O(XLXN_1));
+   VCC  XLXI_16 (.P(XLXN_5));
+   VCC  XLXI_17 (.P(XLXN_6));
+   AND2  XLXI_19 (.I0(clkswitch), 
+                 .I1(CLK), 
+                 .O(XLXN_10));
+   AND2  XLXI_21 (.I0(D_DUMMY), 
+                 .I1(A_DUMMY), 
+                 .O(XLXN_42));
+   AND2B1  XLXI_22 (.I0(D_DUMMY), 
+                   .I1(A_DUMMY), 
+                   .O(XLXN_17));
+   VCC  XLXI_24 (.P(XLXN_43));
+   AND2  XLXI_25 (.I0(CLRIN), 
+                 .I1(XLXN_43), 
+                 .O(XLXN_29));
+endmodule

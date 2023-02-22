@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\XickZenF5\Desktop\Digital\Lab8\SevenSegment\SevenSegment\Sevenseg.ncd
+OUTFILE=C:\Users\XickZenF5\Desktop\Digital\Lab8\SevenSegment\SevenSegment\Sevenseg.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\XickZenF5\Desktop\Digital\Lab8\SevenSegment\SevenSegment
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,36 @@
+
+
+
+
+NET "XLXN_469" LOC = P45;
+NET "Reset" LOC = P46;
+
+NET "P123" LOC = P123;
+
+NET "XLXN_457" LOC = P44;
+NET "XLXN_458" LOC = P43;
+NET "XLXN_459" LOC = P30;
+NET "XLXN_460" LOC = P33;
+
+
+//LED
+//NET "common0" LOC = P82;
+//NET "common1" LOC = P81;
+//NET "common2" LOC = P80;
+//NET "common3" LOC = P79;
+
+
+
+NET "a" LOC = P41;
+NET "b" LOC = P40;
+NET "c" LOC = P35;
+NET "d" LOC = P34;
+NET "e" LOC = P32;
+NET "f" LOC = P29;
+NET "g" LOC = P27;
+NET "DP" LOC = P26;
+
+
+
+
+

@@ -1,0 +1,84 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : slideswitch.vf
+// /___/   /\     Timestamp : 10/30/2022 19:30:43
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/slideswitch.vf -w C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/slideswitch.sch
+//Design Name: slideswitch
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module slideswitch(SL_SW0_P66, 
+                   SL_SW1_P62, 
+                   SL_SW2_P61, 
+                   SL_SW3_P59, 
+                   SL_SW4_P58, 
+                   SL_SW5_P57, 
+                   SL_SW6_P56, 
+                   SL_SW7_P55, 
+                   SLIDE_SWITCH);
+
+    input SL_SW0_P66;
+    input SL_SW1_P62;
+    input SL_SW2_P61;
+    input SL_SW3_P59;
+    input SL_SW4_P58;
+    input SL_SW5_P57;
+    input SL_SW6_P56;
+    input SL_SW7_P55;
+   output [7:0] SLIDE_SWITCH;
+   
+   wire XLXN_12;
+   wire XLXN_13;
+   wire XLXN_14;
+   wire XLXN_15;
+   wire XLXN_16;
+   wire XLXN_22;
+   wire XLXN_24;
+   wire XLXN_25;
+   
+   INV  XLXI_2 (.I(SL_SW0_P66), 
+               .O(XLXN_12));
+   INV  XLXI_3 (.I(XLXN_12), 
+               .O(SLIDE_SWITCH[0]));
+   INV  XLXI_4 (.I(SL_SW1_P62), 
+               .O(XLXN_13));
+   INV  XLXI_5 (.I(XLXN_13), 
+               .O(SLIDE_SWITCH[1]));
+   INV  XLXI_6 (.I(SL_SW2_P61), 
+               .O(XLXN_14));
+   INV  XLXI_7 (.I(XLXN_14), 
+               .O(SLIDE_SWITCH[2]));
+   INV  XLXI_8 (.I(SL_SW3_P59), 
+               .O(XLXN_15));
+   INV  XLXI_9 (.I(XLXN_15), 
+               .O(SLIDE_SWITCH[3]));
+   INV  XLXI_10 (.I(SL_SW4_P58), 
+                .O(XLXN_16));
+   INV  XLXI_11 (.I(XLXN_16), 
+                .O(SLIDE_SWITCH[4]));
+   INV  XLXI_12 (.I(SL_SW5_P57), 
+                .O(XLXN_22));
+   INV  XLXI_13 (.I(XLXN_22), 
+                .O(SLIDE_SWITCH[5]));
+   INV  XLXI_14 (.I(SL_SW6_P56), 
+                .O(XLXN_24));
+   INV  XLXI_15 (.I(XLXN_24), 
+                .O(SLIDE_SWITCH[6]));
+   INV  XLXI_16 (.I(SL_SW7_P55), 
+                .O(XLXN_25));
+   INV  XLXI_17 (.I(XLXN_25), 
+                .O(SLIDE_SWITCH[7]));
+endmodule

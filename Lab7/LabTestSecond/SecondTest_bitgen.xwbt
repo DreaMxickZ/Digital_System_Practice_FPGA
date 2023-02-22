@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.ncd
+OUTFILE=C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond
+LICENSE=WebPack
+USER_INFO=__0_0_0

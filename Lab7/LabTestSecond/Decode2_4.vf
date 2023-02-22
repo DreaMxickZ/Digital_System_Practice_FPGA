@@ -1,0 +1,56 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Decode2_4.vf
+// /___/   /\     Timestamp : 10/08/2022 00:12:23
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/Decode2_4.vf -w C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/Decode2_4.sch
+//Design Name: Decode2_4
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Decode2_4(BIT1, 
+                 BIT2, 
+                 com0, 
+                 com1, 
+                 com2, 
+                 com3);
+
+    input BIT1;
+    input BIT2;
+   output com0;
+   output com1;
+   output com2;
+   output com3;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   
+   INV  XLXI_1 (.I(BIT1), 
+               .O(XLXN_1));
+   INV  XLXI_2 (.I(BIT2), 
+               .O(XLXN_2));
+   AND2  XLXI_3 (.I0(XLXN_2), 
+                .I1(XLXN_1), 
+                .O(com0));
+   AND2  XLXI_4 (.I0(XLXN_2), 
+                .I1(BIT1), 
+                .O(com1));
+   AND2  XLXI_5 (.I0(XLXN_1), 
+                .I1(BIT2), 
+                .O(com2));
+   AND2  XLXI_6 (.I0(BIT1), 
+                .I1(BIT2), 
+                .O(com3));
+endmodule

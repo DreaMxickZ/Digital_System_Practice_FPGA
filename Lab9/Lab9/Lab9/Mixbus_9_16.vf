@@ -1,0 +1,78 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Mixbus_9_16.vf
+// /___/   /\     Timestamp : 11/07/2022 21:44:54
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Mixbus_9_16.vf -w C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Mixbus_9_16.sch
+//Design Name: Mixbus_9_16
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Mixbus_9_16(BITCO, 
+                   INBITT, 
+                   OUTTBIT);
+
+    input BITCO;
+    input [7:0] INBITT;
+   output [15:0] OUTTBIT;
+   
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_12;
+   wire XLXN_13;
+   wire XLXN_14;
+   wire XLXN_15;
+   wire XLXN_16;
+   
+   BUF  XLXI_1 (.I(INBITT[0]), 
+               .O(OUTTBIT[0]));
+   BUF  XLXI_2 (.I(INBITT[1]), 
+               .O(OUTTBIT[1]));
+   BUF  XLXI_3 (.I(INBITT[2]), 
+               .O(OUTTBIT[2]));
+   BUF  XLXI_4 (.I(INBITT[3]), 
+               .O(OUTTBIT[3]));
+   BUF  XLXI_5 (.I(INBITT[4]), 
+               .O(OUTTBIT[4]));
+   BUF  XLXI_6 (.I(INBITT[5]), 
+               .O(OUTTBIT[5]));
+   BUF  XLXI_7 (.I(INBITT[6]), 
+               .O(OUTTBIT[6]));
+   BUF  XLXI_8 (.I(INBITT[7]), 
+               .O(OUTTBIT[7]));
+   BUF  XLXI_13 (.I(BITCO), 
+                .O(OUTTBIT[8]));
+   BUF  XLXI_14 (.I(XLXN_10), 
+                .O(OUTTBIT[9]));
+   GND  XLXI_21 (.G(XLXN_10));
+   BUF  XLXI_24 (.I(XLXN_11), 
+                .O(OUTTBIT[10]));
+   GND  XLXI_25 (.G(XLXN_11));
+   BUF  XLXI_26 (.I(XLXN_12), 
+                .O(OUTTBIT[11]));
+   GND  XLXI_27 (.G(XLXN_12));
+   BUF  XLXI_28 (.I(XLXN_13), 
+                .O(OUTTBIT[12]));
+   GND  XLXI_29 (.G(XLXN_13));
+   BUF  XLXI_30 (.I(XLXN_14), 
+                .O(OUTTBIT[13]));
+   GND  XLXI_31 (.G(XLXN_14));
+   BUF  XLXI_32 (.I(XLXN_15), 
+                .O(OUTTBIT[14]));
+   GND  XLXI_33 (.G(XLXN_15));
+   BUF  XLXI_34 (.I(XLXN_16), 
+                .O(OUTTBIT[15]));
+   GND  XLXI_35 (.G(XLXN_16));
+endmodule

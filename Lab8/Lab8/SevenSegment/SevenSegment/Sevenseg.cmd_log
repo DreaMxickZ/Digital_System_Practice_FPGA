@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Digital/Lab8/SevenSegment/SevenSegment/Sevenseg.xst" -ofn "C:/Users/XickZenF5/Desktop/Digital/Lab8/SevenSegment/SevenSegment/Sevenseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sevenseg.ucf -p xc6slx9-tqg144-3 Sevenseg.ngc Sevenseg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Sevenseg_map.ncd Sevenseg.ngd Sevenseg.pcf 
+par -w -intstyle ise -ol high -mt off Sevenseg_map.ncd Sevenseg.ncd Sevenseg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Sevenseg.twx Sevenseg.ncd -o Sevenseg.twr Sevenseg.pcf -ucf Sevenseg.ucf 
+bitgen -intstyle ise -f Sevenseg.ut Sevenseg.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Digital/Lab8/SevenSegment/SevenSegment/Sevenseg.xst" -ofn "C:/Users/XickZenF5/Desktop/Digital/Lab8/SevenSegment/SevenSegment/Sevenseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sevenseg.ucf -p xc6slx9-tqg144-3 Sevenseg.ngc Sevenseg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Sevenseg_map.ncd Sevenseg.ngd Sevenseg.pcf 
+par -w -intstyle ise -ol high -mt off Sevenseg_map.ncd Sevenseg.ncd Sevenseg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Sevenseg.twx Sevenseg.ncd -o Sevenseg.twr Sevenseg.pcf -ucf Sevenseg.ucf 
+bitgen -intstyle ise -f Sevenseg.ut Sevenseg.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Digital/Lab8/SevenSegment/SevenSegment/Sevenseg.xst" -ofn "C:/Users/XickZenF5/Desktop/Digital/Lab8/SevenSegment/SevenSegment/Sevenseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sevenseg.ucf -p xc6slx9-tqg144-3 Sevenseg.ngc Sevenseg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Sevenseg_map.ncd Sevenseg.ngd Sevenseg.pcf 
+par -w -intstyle ise -ol high -mt off Sevenseg_map.ncd Sevenseg.ncd Sevenseg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Sevenseg.twx Sevenseg.ncd -o Sevenseg.twr Sevenseg.pcf -ucf Sevenseg.ucf 
+bitgen -intstyle ise -f Sevenseg.ut Sevenseg.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Digital/Lab8/SevenSegment/SevenSegment/Sevenseg.xst" -ofn "C:/Users/XickZenF5/Desktop/Digital/Lab8/SevenSegment/SevenSegment/Sevenseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sevenseg.ucf -p xc6slx9-tqg144-3 Sevenseg.ngc Sevenseg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Sevenseg_map.ncd Sevenseg.ngd Sevenseg.pcf 
+par -w -intstyle ise -ol high -mt off Sevenseg_map.ncd Sevenseg.ncd Sevenseg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Sevenseg.twx Sevenseg.ncd -o Sevenseg.twr Sevenseg.pcf -ucf Sevenseg.ucf 
+bitgen -intstyle ise -f Sevenseg.ut Sevenseg.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Digital/Lab8/SevenSegment/SevenSegment/Sevenseg.xst" -ofn "C:/Users/XickZenF5/Desktop/Digital/Lab8/SevenSegment/SevenSegment/Sevenseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sevenseg.ucf -p xc6slx9-tqg144-3 Sevenseg.ngc Sevenseg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Sevenseg_map.ncd Sevenseg.ngd Sevenseg.pcf 
+par -w -intstyle ise -ol high -mt off Sevenseg_map.ncd Sevenseg.ncd Sevenseg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Sevenseg.twx Sevenseg.ncd -o Sevenseg.twr Sevenseg.pcf -ucf Sevenseg.ucf 
+bitgen -intstyle ise -f Sevenseg.ut Sevenseg.ncd 
+sch2sym -intstyle ise -family spartan6 -refsym Sevenseg C:/Users/XickZenF5/Desktop/Digital/Lab8/SevenSegment/SevenSegment/Sevenseg.sch C:/Users/XickZenF5/Desktop/Digital/Lab8/SevenSegment/SevenSegment/Sevenseg.sym 

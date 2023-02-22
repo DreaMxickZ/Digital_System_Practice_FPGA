@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Nov 01 21:47:31 2022
+# Process ID: 23220
+# Log file: C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/planAhead_run_4/planAhead.log
+# Journal file: C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P82 [get_ports LED_1]
+endgroup
+startgroup
+set_property package_pin P81 [get_ports LED_2]
+endgroup
+startgroup
+set_property package_pin P80 [get_ports LED_3]
+endgroup
+startgroup
+set_property package_pin P79 [get_ports LED_4]
+endgroup
+save_constraints

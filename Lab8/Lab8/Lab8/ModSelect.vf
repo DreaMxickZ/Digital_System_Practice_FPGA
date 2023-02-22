@@ -1,0 +1,310 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ModSelect.vf
+// /___/   /\     Timestamp : 10/18/2022 03:02:20
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/XickZenF5/Desktop/Digital/Lab8/Lab8/ModSelect.vf -w C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/ModSelect.sch
+//Design Name: ModSelect
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FJKC_HXILINX_ModSelect(Q, C, CLR, J, K);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              J;
+   input              K;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+
+
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else
+        begin
+           if(!J)
+           begin
+              if(K)
+              Q <= 1'b0;
+           end
+           else
+           begin
+              if(!K)
+              Q <= 1'b1;
+              else 
+              Q <= !Q;
+           end
+        end
+     end
+   
+endmodule
+`timescale 1ns / 1ps
+
+module NUM_0_9_CLK_SW_CLR_MUSER_ModSelect(CLK, 
+                                          CLR, 
+                                          SW_CLK, 
+                                          A, 
+                                          B, 
+                                          C, 
+                                          D, 
+                                          TC);
+
+    input CLK;
+    input CLR;
+    input SW_CLK;
+   output A;
+   output B;
+   output C;
+   output D;
+   output TC;
+   
+   wire XLXN_1;
+   wire XLXN_3;
+   wire XLXN_10;
+   wire XLXN_14;
+   wire XLXN_17;
+   wire XLXN_19;
+   wire A_DUMMY;
+   wire B_DUMMY;
+   wire C_DUMMY;
+   wire D_DUMMY;
+   
+   assign A = A_DUMMY;
+   assign B = B_DUMMY;
+   assign C = C_DUMMY;
+   assign D = D_DUMMY;
+   (* HU_SET = "XLXI_1_5" *) 
+   FJKC_HXILINX_ModSelect  XLXI_1 (.C(XLXN_1), 
+                                  .CLR(XLXN_3), 
+                                  .J(XLXN_17), 
+                                  .K(XLXN_17), 
+                                  .Q(A_DUMMY));
+   (* HU_SET = "XLXI_2_6" *) 
+   FJKC_HXILINX_ModSelect  XLXI_2 (.C(XLXN_1), 
+                                  .CLR(XLXN_3), 
+                                  .J(A_DUMMY), 
+                                  .K(A_DUMMY), 
+                                  .Q(B_DUMMY));
+   (* HU_SET = "XLXI_3_7" *) 
+   FJKC_HXILINX_ModSelect  XLXI_3 (.C(XLXN_1), 
+                                  .CLR(XLXN_3), 
+                                  .J(XLXN_10), 
+                                  .K(XLXN_10), 
+                                  .Q(C_DUMMY));
+   (* HU_SET = "XLXI_4_8" *) 
+   FJKC_HXILINX_ModSelect  XLXI_4 (.C(XLXN_1), 
+                                  .CLR(XLXN_3), 
+                                  .J(XLXN_14), 
+                                  .K(XLXN_14), 
+                                  .Q(D_DUMMY));
+   AND2  XLXI_5 (.I0(B_DUMMY), 
+                .I1(A_DUMMY), 
+                .O(XLXN_10));
+   AND3  XLXI_7 (.I0(C_DUMMY), 
+                .I1(B_DUMMY), 
+                .I2(A_DUMMY), 
+                .O(XLXN_14));
+   OR2  XLXI_8 (.I0(CLR), 
+               .I1(XLXN_19), 
+               .O(XLXN_3));
+   AND2  XLXI_9 (.I0(D_DUMMY), 
+                .I1(B_DUMMY), 
+                .O(XLXN_19));
+   VCC  XLXI_10 (.P(XLXN_17));
+   BUF  XLXI_11 (.I(XLXN_19), 
+                .O(TC));
+   AND2  XLXI_12 (.I0(SW_CLK), 
+                 .I1(CLK), 
+                 .O(XLXN_1));
+endmodule
+`timescale 1ns / 1ps
+
+module ModSelect(INCLK, 
+                 Mod_1M_Hz, 
+                 Mod_1_Hz, 
+                 Mod_2M_Hz, 
+                 Mod_2_Hz, 
+                 Mod_10K_Hz, 
+                 Mod_10M_Hz, 
+                 Mod_10_Hz, 
+                 Mod_20K_Hz, 
+                 Mod_20_Hz, 
+                 Mod_100K_Hz, 
+                 Mod_100_Hz, 
+                 Mod_200K_Hz, 
+                 Mod_200_Hz, 
+                 Mod_1000_Hz, 
+                 Mod_2000_Hz);
+
+    input INCLK;
+   output Mod_1M_Hz;
+   output Mod_1_Hz;
+   output Mod_2M_Hz;
+   output Mod_2_Hz;
+   output Mod_10K_Hz;
+   output Mod_10M_Hz;
+   output Mod_10_Hz;
+   output Mod_20K_Hz;
+   output Mod_20_Hz;
+   output Mod_100K_Hz;
+   output Mod_100_Hz;
+   output Mod_200K_Hz;
+   output Mod_200_Hz;
+   output Mod_1000_Hz;
+   output Mod_2000_Hz;
+   
+   wire XLXN_43;
+   wire XLXN_53;
+   wire XLXN_54;
+   wire XLXN_55;
+   wire XLXN_56;
+   wire XLXN_57;
+   wire XLXN_58;
+   wire XLXN_59;
+   wire XLXN_60;
+   wire Mod_200K_Hz_DUMMY;
+   wire Mod_2_Hz_DUMMY;
+   wire Mod_20K_Hz_DUMMY;
+   wire Mod_2000_Hz_DUMMY;
+   wire Mod_2M_Hz_DUMMY;
+   wire Mod_200_Hz_DUMMY;
+   wire Mod_20_Hz_DUMMY;
+   
+   assign Mod_2M_Hz = Mod_2M_Hz_DUMMY;
+   assign Mod_2_Hz = Mod_2_Hz_DUMMY;
+   assign Mod_20K_Hz = Mod_20K_Hz_DUMMY;
+   assign Mod_20_Hz = Mod_20_Hz_DUMMY;
+   assign Mod_200K_Hz = Mod_200K_Hz_DUMMY;
+   assign Mod_200_Hz = Mod_200_Hz_DUMMY;
+   assign Mod_2000_Hz = Mod_2000_Hz_DUMMY;
+   NUM_0_9_CLK_SW_CLR_MUSER_ModSelect  XLXI_1 (.CLK(XLXN_43), 
+                                              .CLR(), 
+                                              .SW_CLK(INCLK), 
+                                              .A(), 
+                                              .B(), 
+                                              .C(), 
+                                              .D(), 
+                                              .TC(Mod_2M_Hz_DUMMY));
+   VCC  XLXI_2 (.P(XLXN_43));
+   NUM_0_9_CLK_SW_CLR_MUSER_ModSelect  XLXI_3 (.CLK(XLXN_43), 
+                                              .CLR(), 
+                                              .SW_CLK(Mod_2M_Hz_DUMMY), 
+                                              .A(), 
+                                              .B(), 
+                                              .C(), 
+                                              .D(), 
+                                              .TC(Mod_200K_Hz_DUMMY));
+   NUM_0_9_CLK_SW_CLR_MUSER_ModSelect  XLXI_4 (.CLK(XLXN_43), 
+                                              .CLR(), 
+                                              .SW_CLK(Mod_200K_Hz_DUMMY), 
+                                              .A(), 
+                                              .B(), 
+                                              .C(), 
+                                              .D(), 
+                                              .TC(Mod_20K_Hz_DUMMY));
+   NUM_0_9_CLK_SW_CLR_MUSER_ModSelect  XLXI_9 (.CLK(XLXN_43), 
+                                              .CLR(), 
+                                              .SW_CLK(Mod_20K_Hz_DUMMY), 
+                                              .A(), 
+                                              .B(), 
+                                              .C(), 
+                                              .D(), 
+                                              .TC(Mod_2000_Hz_DUMMY));
+   NUM_0_9_CLK_SW_CLR_MUSER_ModSelect  XLXI_10 (.CLK(XLXN_43), 
+                                               .CLR(), 
+                                               .SW_CLK(Mod_2000_Hz_DUMMY), 
+                                               .A(), 
+                                               .B(), 
+                                               .C(), 
+                                               .D(), 
+                                               .TC(Mod_200_Hz_DUMMY));
+   NUM_0_9_CLK_SW_CLR_MUSER_ModSelect  XLXI_11 (.CLK(XLXN_43), 
+                                               .CLR(), 
+                                               .SW_CLK(Mod_200_Hz_DUMMY), 
+                                               .A(), 
+                                               .B(), 
+                                               .C(), 
+                                               .D(), 
+                                               .TC(Mod_20_Hz_DUMMY));
+   NUM_0_9_CLK_SW_CLR_MUSER_ModSelect  XLXI_12 (.CLK(XLXN_43), 
+                                               .CLR(), 
+                                               .SW_CLK(Mod_20_Hz_DUMMY), 
+                                               .A(), 
+                                               .B(), 
+                                               .C(), 
+                                               .D(), 
+                                               .TC(Mod_2_Hz_DUMMY));
+   (* HU_SET = "XLXI_21_9" *) 
+   FJKC_HXILINX_ModSelect  XLXI_21 (.C(Mod_2_Hz_DUMMY), 
+                                   .CLR(XLXN_58), 
+                                   .J(XLXN_43), 
+                                   .K(XLXN_43), 
+                                   .Q(Mod_1_Hz));
+   (* HU_SET = "XLXI_22_10" *) 
+   FJKC_HXILINX_ModSelect  XLXI_22 (.C(Mod_20_Hz_DUMMY), 
+                                   .CLR(XLXN_59), 
+                                   .J(XLXN_43), 
+                                   .K(XLXN_43), 
+                                   .Q(Mod_10_Hz));
+   (* HU_SET = "XLXI_23_11" *) 
+   FJKC_HXILINX_ModSelect  XLXI_23 (.C(Mod_200_Hz_DUMMY), 
+                                   .CLR(XLXN_57), 
+                                   .J(XLXN_43), 
+                                   .K(XLXN_43), 
+                                   .Q(Mod_100_Hz));
+   (* HU_SET = "XLXI_24_12" *) 
+   FJKC_HXILINX_ModSelect  XLXI_24 (.C(Mod_2000_Hz_DUMMY), 
+                                   .CLR(XLXN_56), 
+                                   .J(XLXN_43), 
+                                   .K(XLXN_43), 
+                                   .Q(Mod_1000_Hz));
+   (* HU_SET = "XLXI_26_13" *) 
+   FJKC_HXILINX_ModSelect  XLXI_26 (.C(Mod_20K_Hz_DUMMY), 
+                                   .CLR(XLXN_55), 
+                                   .J(XLXN_43), 
+                                   .K(XLXN_43), 
+                                   .Q(Mod_10K_Hz));
+   (* HU_SET = "XLXI_27_14" *) 
+   FJKC_HXILINX_ModSelect  XLXI_27 (.C(Mod_200K_Hz_DUMMY), 
+                                   .CLR(XLXN_54), 
+                                   .J(XLXN_43), 
+                                   .K(XLXN_43), 
+                                   .Q(Mod_100K_Hz));
+   (* HU_SET = "XLXI_28_15" *) 
+   FJKC_HXILINX_ModSelect  XLXI_28 (.C(Mod_2M_Hz_DUMMY), 
+                                   .CLR(XLXN_53), 
+                                   .J(XLXN_43), 
+                                   .K(XLXN_43), 
+                                   .Q(Mod_1M_Hz));
+   (* HU_SET = "XLXI_29_16" *) 
+   FJKC_HXILINX_ModSelect  XLXI_29 (.C(INCLK), 
+                                   .CLR(XLXN_60), 
+                                   .J(XLXN_43), 
+                                   .K(XLXN_43), 
+                                   .Q(Mod_10M_Hz));
+   GND  XLXI_30 (.G(XLXN_53));
+   GND  XLXI_31 (.G(XLXN_54));
+   GND  XLXI_32 (.G(XLXN_55));
+   GND  XLXI_33 (.G(XLXN_56));
+   GND  XLXI_34 (.G(XLXN_57));
+   GND  XLXI_35 (.G(XLXN_58));
+   GND  XLXI_37 (.G(XLXN_59));
+   GND  XLXI_38 (.G(XLXN_60));
+endmodule

@@ -1,0 +1,65 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : CheckCompare.vf
+// /___/   /\     Timestamp : 10/03/2022 17:02:19
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/CheckCompare.vf -w C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6/CheckCompare.sch
+//Design Name: CheckCompare
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module CheckCompare(INA0, 
+                    INA1, 
+                    INB0, 
+                    INB1, 
+                    INC0, 
+                    INC1, 
+                    IND0, 
+                    IND1, 
+                    OUT4IN);
+
+    input INA0;
+    input INA1;
+    input INB0;
+    input INB1;
+    input INC0;
+    input INC1;
+    input IND0;
+    input IND1;
+   output OUT4IN;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   
+   XNOR2  XLXI_1 (.I0(INA1), 
+                 .I1(INA0), 
+                 .O(XLXN_1));
+   XNOR2  XLXI_2 (.I0(INB1), 
+                 .I1(INB0), 
+                 .O(XLXN_2));
+   XNOR2  XLXI_3 (.I0(INC1), 
+                 .I1(INC0), 
+                 .O(XLXN_3));
+   XNOR2  XLXI_4 (.I0(IND1), 
+                 .I1(IND0), 
+                 .O(XLXN_4));
+   AND4  XLXI_5 (.I0(XLXN_4), 
+                .I1(XLXN_3), 
+                .I2(XLXN_2), 
+                .I3(XLXN_1), 
+                .O(OUT4IN));
+endmodule

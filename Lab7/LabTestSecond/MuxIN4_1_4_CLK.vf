@@ -1,0 +1,137 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MuxIN4_1_4_CLK.vf
+// /___/   /\     Timestamp : 10/06/2022 23:56:30
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/MuxIN4_1_4_CLK.vf -w C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/MuxIN4_1_4_CLK.sch
+//Design Name: MuxIN4_1_4_CLK
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module M4_1E_HXILINX_MuxIN4_1_4_CLK (O, D0, D1, D2, D3, E, S0, S1);
+    
+
+   output O;
+
+   input  D0;
+   input  D1;
+   input  D2;
+   input  D3;
+   input  E;
+   input  S0;
+   input  S1;
+
+   reg O;
+
+   always @ ( D0 or D1 or D2 or D3 or E or S0 or S1)
+   begin
+      if(!E)
+      O <= 1'b0;
+      else 
+      begin
+        case({S1,S0})
+        2'b00 : O <= D0;
+        2'b01 : O <= D1;
+        2'b10 : O <= D2;
+        2'b11 : O <= D3;
+        endcase
+      end
+   end
+    
+endmodule
+`timescale 1ns / 1ps
+
+module MuxIN4_1_4_CLK(A0, 
+                      A1, 
+                      A2, 
+                      A3, 
+                      B0, 
+                      B1, 
+                      B2, 
+                      B3, 
+                      CLK, 
+                      C0, 
+                      C1, 
+                      C2, 
+                      C3, 
+                      D0, 
+                      D1, 
+                      D2, 
+                      D3, 
+                      A_output, 
+                      B_output, 
+                      C_output, 
+                      D_output);
+
+    input A0;
+    input A1;
+    input A2;
+    input A3;
+    input B0;
+    input B1;
+    input B2;
+    input B3;
+    input CLK;
+    input C0;
+    input C1;
+    input C2;
+    input C3;
+    input D0;
+    input D1;
+    input D2;
+    input D3;
+   output A_output;
+   output B_output;
+   output C_output;
+   output D_output;
+   
+   
+   (* HU_SET = "XLXI_1_7" *) 
+   M4_1E_HXILINX_MuxIN4_1_4_CLK  XLXI_1 (.D0(A0), 
+                                        .D1(A1), 
+                                        .D2(A2), 
+                                        .D3(A3), 
+                                        .E(), 
+                                        .S0(CLK), 
+                                        .S1(), 
+                                        .O(A_output));
+   (* HU_SET = "XLXI_2_8" *) 
+   M4_1E_HXILINX_MuxIN4_1_4_CLK  XLXI_2 (.D0(B0), 
+                                        .D1(B1), 
+                                        .D2(B2), 
+                                        .D3(B3), 
+                                        .E(), 
+                                        .S0(CLK), 
+                                        .S1(), 
+                                        .O(B_output));
+   (* HU_SET = "XLXI_5_9" *) 
+   M4_1E_HXILINX_MuxIN4_1_4_CLK  XLXI_5 (.D0(C0), 
+                                        .D1(C1), 
+                                        .D2(C2), 
+                                        .D3(C3), 
+                                        .E(), 
+                                        .S0(CLK), 
+                                        .S1(), 
+                                        .O(C_output));
+   (* HU_SET = "XLXI_6_10" *) 
+   M4_1E_HXILINX_MuxIN4_1_4_CLK  XLXI_6 (.D0(D0), 
+                                        .D1(D1), 
+                                        .D2(D2), 
+                                        .D3(D3), 
+                                        .E(), 
+                                        .S0(CLK), 
+                                        .S1(), 
+                                        .O(D_output));
+endmodule

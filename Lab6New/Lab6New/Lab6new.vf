@@ -1,0 +1,123 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Lab6new.vf
+// /___/   /\     Timestamp : 10/03/2022 17:25:55
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.vf -w C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.sch
+//Design Name: Lab6new
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Lab6new(CLK_Switch, 
+               CLR_Switch, 
+               Preclock, 
+               buz, 
+               com000, 
+               com111, 
+               XLXN_64, 
+               XLXN_65, 
+               XLXN_66, 
+               XLXN_67, 
+               XLXN_68, 
+               XLXN_69, 
+               XLXN_70);
+
+    input CLK_Switch;
+    input CLR_Switch;
+    input Preclock;
+   output buz;
+   output com000;
+   output com111;
+   output XLXN_64;
+   output XLXN_65;
+   output XLXN_66;
+   output XLXN_67;
+   output XLXN_68;
+   output XLXN_69;
+   output XLXN_70;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_18;
+   wire XLXN_23;
+   wire XLXN_24;
+   wire XLXN_25;
+   wire XLXN_26;
+   wire XLXN_27;
+   wire XLXN_28;
+   wire XLXN_29;
+   wire XLXN_57;
+   wire XLXN_58;
+   wire XLXN_62;
+   
+   CheckCompare  XLXI_1 (.INA0(XLXN_24), 
+                        .INA1(XLXN_25), 
+                        .INB0(XLXN_18), 
+                        .INB1(XLXN_26), 
+                        .INC0(XLXN_27), 
+                        .INC1(XLXN_28), 
+                        .IND0(XLXN_29), 
+                        .IND1(XLXN_23), 
+                        .OUT4IN(buz));
+   SwapCommon0_1  XLXI_2 (.CLKIN(XLXN_62), 
+                         .COMMON0(com000), 
+                         .XLXN_5(com111));
+   MuxA_D_CLK  XLXI_3 (.A0(XLXN_24), 
+                      .A1(XLXN_25), 
+                      .B0(XLXN_18), 
+                      .B1(XLXN_26), 
+                      .CLK(XLXN_62), 
+                      .C0(XLXN_27), 
+                      .C1(XLXN_28), 
+                      .D0(XLXN_29), 
+                      .D1(XLXN_23), 
+                      .A(XLXN_1), 
+                      .B(XLXN_2), 
+                      .C(XLXN_3), 
+                      .D(XLXN_4));
+   FFFFISNH  XLXI_5 (.CLK(XLXN_57), 
+                    .clkswitch(CLK_Switch), 
+                    .CLRIN(CLR_Switch), 
+                    .A(XLXN_24), 
+                    .B(XLXN_18), 
+                    .C(XLXN_27), 
+                    .D(XLXN_29));
+   FFFFISNH  XLXI_6 (.CLK(XLXN_58), 
+                    .clkswitch(CLK_Switch), 
+                    .CLRIN(CLR_Switch), 
+                    .A(XLXN_25), 
+                    .B(XLXN_26), 
+                    .C(XLXN_28), 
+                    .D(XLXN_23));
+   DIVIDER60  XLXI_7 (.CLK(Preclock), 
+                     .Q(XLXN_62));
+   DIVIDER10  XLXI_8 (.CLK(Preclock), 
+                     .Q(XLXN_57));
+   DIVIDER25  XLXI_9 (.CLK(Preclock), 
+                     .Q(XLXN_58));
+   sevensegsixnew  XLXI_10 (.SW0_A(XLXN_1), 
+                           .SW1_B(XLXN_2), 
+                           .SW2_C(XLXN_3), 
+                           .SW3_D(XLXN_4), 
+                           .aa(XLXN_64), 
+                           .b(XLXN_65), 
+                           .c(XLXN_66), 
+                           .dd(XLXN_70), 
+                           .e(XLXN_67), 
+                           .f(XLXN_69), 
+                           .g(XLXN_68));
+endmodule

@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan6 -refsym Counter03 C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/Counter03.sch C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/Counter03.sym 
+sch2sym -intstyle ise -family spartan6 -refsym Counter03 C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/Counter03.sch C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/Counter03.sym 

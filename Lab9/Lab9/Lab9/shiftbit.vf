@@ -1,0 +1,98 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : shiftbit.vf
+// /___/   /\     Timestamp : 11/06/2022 01:43:01
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/shiftbit.vf -w C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/shiftbit.sch
+//Design Name: shiftbit
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module shiftbit(I_0, 
+                I_1, 
+                I_2, 
+                I_3, 
+                I_4, 
+                I_5, 
+                I_6, 
+                I_7, 
+                O_0, 
+                O_1, 
+                O_2, 
+                O_3, 
+                O_4, 
+                O_5, 
+                O_6, 
+                O_7);
+
+    input I_0;
+    input I_1;
+    input I_2;
+    input I_3;
+    input I_4;
+    input I_5;
+    input I_6;
+    input I_7;
+   output O_0;
+   output O_1;
+   output O_2;
+   output O_3;
+   output O_4;
+   output O_5;
+   output O_6;
+   output O_7;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_8;
+   
+   INV  XLXI_1 (.I(I_0), 
+               .O(XLXN_1));
+   INV  XLXI_2 (.I(XLXN_1), 
+               .O(O_1));
+   INV  XLXI_3 (.I(I_1), 
+               .O(XLXN_2));
+   INV  XLXI_4 (.I(XLXN_2), 
+               .O(O_2));
+   INV  XLXI_5 (.I(I_2), 
+               .O(XLXN_3));
+   INV  XLXI_6 (.I(XLXN_3), 
+               .O(O_3));
+   INV  XLXI_7 (.I(I_3), 
+               .O(XLXN_4));
+   INV  XLXI_8 (.I(XLXN_4), 
+               .O(O_4));
+   INV  XLXI_9 (.I(I_4), 
+               .O(XLXN_5));
+   INV  XLXI_10 (.I(XLXN_5), 
+                .O(O_5));
+   INV  XLXI_11 (.I(I_5), 
+                .O(XLXN_6));
+   INV  XLXI_12 (.I(XLXN_6), 
+                .O(O_6));
+   INV  XLXI_13 (.I(I_6), 
+                .O(XLXN_7));
+   INV  XLXI_14 (.I(XLXN_7), 
+                .O(O_7));
+   INV  XLXI_15 (.I(I_7), 
+                .O(XLXN_8));
+   INV  XLXI_16 (.I(XLXN_8), 
+                .O(O_0));
+endmodule

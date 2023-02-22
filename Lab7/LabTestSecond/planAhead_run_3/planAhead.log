@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu Oct 06 01:03:00 2022
+# Process ID: 21032
+# Log file: C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/pa.fromNetlist.tcl
+# create_project -name LabTestSecond -dir "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/planAhead_run_3" -part xc6slx9tqg144-3
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond} }
+# set_property target_constrs_file "SecondTest.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.ucf' to fileset 'constrs_1'
+# add_files [list {SecondTest.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx9tqg144-3
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SecondTest.ngc ...
+WARNING:NetListWriters:298 - No output is written to SecondTest.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SecondTest.edif ...
+ngc2edif: Total memory usage is 79216 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/LabTestSecond.data/cache/SecondTest_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/LabTestSecond.data/cache/SecondTest_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sw' [C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.ucf:16]
+Finished Parsing UCF File [C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: c5d0fdb9
+link_design: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 569.078 ; gain = 95.309
+startgroup
+set_property package_pin P45 [get_ports Switch]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond\planAhead_pid21032.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Oct 06 01:03:40 2022...
+INFO: [Common 17-83] Releasing license: PlanAhead

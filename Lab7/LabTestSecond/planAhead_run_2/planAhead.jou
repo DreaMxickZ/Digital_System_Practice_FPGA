@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Wed Oct 05 23:40:21 2022
+# Process ID: 10028
+# Log file: C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P46 [get_ports XLXN_76]
+endgroup
+save_constraints

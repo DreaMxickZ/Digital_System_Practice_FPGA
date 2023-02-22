@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan6 -refsym Decoder2to4New C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/Decoder2to4New.sch C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/Decoder2to4New.sym 
+sch2sym -intstyle ise -family spartan6 -refsym Decoder2to4New C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/Decoder2to4New.sch C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/Decoder2to4New.sym 
+sch2sym -intstyle ise -family spartan6 -refsym Decoder2to4New C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/Decoder2to4New.sch C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/Decoder2to4New.sym 
+sch2sym -intstyle ise -family spartan6 -refsym Decoder2to4New C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/Decoder2to4New.sch C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/Decoder2to4New.sym 

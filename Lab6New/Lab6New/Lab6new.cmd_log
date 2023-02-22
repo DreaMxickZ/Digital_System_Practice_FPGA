@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6new.ucf -p xc6slx9-tqg144-3 Lab6new.ngc Lab6new.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6new_map.ncd Lab6new.ngd Lab6new.pcf 
+par -w -intstyle ise -ol high -mt off Lab6new_map.ncd Lab6new.ncd Lab6new.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab6new.twx Lab6new.ncd -o Lab6new.twr Lab6new.pcf -ucf Lab6new.ucf 
+bitgen -intstyle ise -f Lab6new.ut Lab6new.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6new.ucf -p xc6slx9-tqg144-3 Lab6new.ngc Lab6new.ngd  
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6new.ucf -p xc6slx9-tqg144-3 Lab6new.ngc Lab6new.ngd  
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/Lab6new.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/Lab6New/Lab6new.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/Lab6New/Lab6new.syr" 

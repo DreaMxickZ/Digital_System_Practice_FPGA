@@ -1,0 +1,8 @@
+verilog work "ModSelect.vf"
+verilog work "Decoder2to4New.vf"
+verilog work "Counter03.vf"
+verilog work "Sevenseg.vf"
+verilog work "slideswitch.vf"
+verilog work "Mux_4_4_11.vf"
+verilog work "DIP_switch.vf"
+verilog work "Lab8.vf"

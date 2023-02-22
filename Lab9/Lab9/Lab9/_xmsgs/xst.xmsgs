@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf" Line 48: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf" Line 1970: Input port <arg fmt="%s" index="1">CI</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf" Line 2022: Input port <arg fmt="%s" index="1">CLR_MUX_CLK</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf" Line 2094: Input port <arg fmt="%s" index="1">CLR_IN</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_0</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_0</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_0_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_1</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_1</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_1_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_2</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_2</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_2_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_3</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_3</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_3_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_4</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_4</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_4_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_5</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_5</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_5_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_6</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_6</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_6_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_7</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_7</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_7_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_8</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_8</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_8_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_9</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_9</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_9_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_10</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_10</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_10_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_11</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_11</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_11_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_12</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_12</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_12_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_13</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_13</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_13_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_14</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_14</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_14_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="51" delta="new" >Detected potential name conflict between port &lt;<arg fmt="%s" index="1">BIT</arg>&gt; and port &lt;<arg fmt="%s" index="2">BIT_15</arg>&gt; in unit &lt;<arg fmt="%s" index="3">Mixbus1_16_MUSER_Lab9</arg>&gt;. Port &lt;<arg fmt="%s" index="4">BIT_15</arg>&gt; is renamed to &lt;<arg fmt="%s" index="5">BIT_15_ren</arg>&gt;, changing the interface of this block. Please update your source code accordingly or choose a different name.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">CI</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_6</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">CLR_MUX_CLK</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_17</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1960</arg>: Output port &lt;<arg fmt="%s" index="3">clk_1hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1960</arg>: Output port &lt;<arg fmt="%s" index="3">clk_2hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1960</arg>: Output port &lt;<arg fmt="%s" index="3">clk_2khz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1960</arg>: Output port &lt;<arg fmt="%s" index="3">clk_2mhz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1960</arg>: Output port &lt;<arg fmt="%s" index="3">clk_20hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1960</arg>: Output port &lt;<arg fmt="%s" index="3">clk_200hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1960</arg>: Output port &lt;<arg fmt="%s" index="3">clk_200khz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1970</arg>: Output port &lt;<arg fmt="%s" index="3">OFL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">2051</arg>: Output port &lt;<arg fmt="%s" index="3">COMMON2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_29</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">2051</arg>: Output port &lt;<arg fmt="%s" index="3">COMMON3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_29</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">2107</arg>: Output port &lt;<arg fmt="%s" index="3">CO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_116</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">2107</arg>: Output port &lt;<arg fmt="%s" index="3">OFL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_116</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">2116</arg>: Output port &lt;<arg fmt="%s" index="3">O_0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_150</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1704</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_597</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1704</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_597</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1724</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_602</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1724</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_602</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1744</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_607</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1744</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_607</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1764</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_657</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1764</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_657</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1784</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_662</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1784</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_662</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1804</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_667</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1804</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_667</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1824</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_672</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Lab9.vf</arg>&quot; line <arg fmt="%s" index="2">1824</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_672</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_676</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_5</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_5/XLXI_676</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Lab9</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>

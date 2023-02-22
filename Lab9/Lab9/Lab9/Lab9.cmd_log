@@ -1,0 +1,157 @@
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/Lab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9.ucf -p xc6slx9-tqg144-3 Lab9.ngc Lab9.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab9_map.ncd Lab9.ngd Lab9.pcf 
+par -w -intstyle ise -ol high -mt off Lab9_map.ncd Lab9.ncd Lab9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf 
+bitgen -intstyle ise -f Lab9.ut Lab9.ncd 

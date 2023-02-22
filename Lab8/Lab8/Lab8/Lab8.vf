@@ -1,0 +1,542 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Lab8.vf
+// /___/   /\     Timestamp : 10/19/2022 00:26:59
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/XickZenF5/Desktop/Digital/Lab8/Lab8/Lab8.vf -w C:/Users/XickZenF5/Desktop/Digital/Lab8/Lab8/Lab8.sch
+//Design Name: Lab8
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module ADD8_HXILINX_Lab8 (CO, OFL, S, A, B, CI);
+
+
+   output 	      CO;
+   output 	      OFL;
+   output [7:0]       S;
+
+   input  [7:0]       A;
+   input  [7:0]       B;
+   input              CI;
+
+   assign   {CO, S} = A + B + CI;
+   assign   OFL     = ( A[7] & B[7] & (~S[7])) | ((~A[7]) & (~B[7]) & S[7]);
+
+endmodule
+`timescale  100 ps / 10 ps
+
+module M4_1E_HXILINX_Lab8 (O, D0, D1, D2, D3, E, S0, S1);
+    
+
+   output O;
+
+   input  D0;
+   input  D1;
+   input  D2;
+   input  D3;
+   input  E;
+   input  S0;
+   input  S1;
+
+   reg O;
+
+   always @ ( D0 or D1 or D2 or D3 or E or S0 or S1)
+   begin
+      if(!E)
+      O <= 1'b0;
+      else 
+      begin
+        case({S1,S0})
+        2'b00 : O <= D0;
+        2'b01 : O <= D1;
+        2'b10 : O <= D2;
+        2'b11 : O <= D3;
+        endcase
+      end
+   end
+    
+endmodule
+`timescale 100 ps / 10 ps
+
+module FJKC_HXILINX_Lab8(Q, C, CLR, J, K);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              J;
+   input              K;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+
+
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else
+        begin
+           if(!J)
+           begin
+              if(K)
+              Q <= 1'b0;
+           end
+           else
+           begin
+              if(!K)
+              Q <= 1'b1;
+              else 
+              Q <= !Q;
+           end
+        end
+     end
+   
+endmodule
+`timescale  100 ps / 10 ps
+
+module AND8_HXILINX_Lab8 (O, I0, I1, I2, I3, I4, I5, I6, I7);
+    
+
+   output O;
+
+   input I0;
+   input I1;
+   input I2;
+   input I3;
+   input I4;
+   input I5;
+   input I6;
+   input I7;
+
+assign O = I0 && I1 && I2 && I3 && I4 && I5 && I6 && I7;
+
+endmodule
+`timescale 1ns / 1ps
+
+module DIP_switch_MUSER_Lab8(DIP_SW1_P112, 
+                             DIP_SW2_P111, 
+                             DIP_SW3_P105, 
+                             DIP_SW4_P104, 
+                             DIP_SW5_P102, 
+                             DIP_SW6_P101, 
+                             DIP_SW7_P100, 
+                             DIP_SW8_P99, 
+                             DIP_SWITCH);
+
+    input DIP_SW1_P112;
+    input DIP_SW2_P111;
+    input DIP_SW3_P105;
+    input DIP_SW4_P104;
+    input DIP_SW5_P102;
+    input DIP_SW6_P101;
+    input DIP_SW7_P100;
+    input DIP_SW8_P99;
+   output [7:0] DIP_SWITCH;
+   
+   wire XLXN_11;
+   wire XLXN_12;
+   wire XLXN_13;
+   wire XLXN_14;
+   wire XLXN_15;
+   wire XLXN_16;
+   wire XLXN_17;
+   wire XLXN_25;
+   
+   INV  XLXI_1 (.I(DIP_SW1_P112), 
+               .O(XLXN_11));
+   INV  XLXI_2 (.I(XLXN_11), 
+               .O(DIP_SWITCH[0]));
+   INV  XLXI_3 (.I(DIP_SW2_P111), 
+               .O(XLXN_17));
+   INV  XLXI_4 (.I(DIP_SW3_P105), 
+               .O(XLXN_16));
+   INV  XLXI_5 (.I(DIP_SW4_P104), 
+               .O(XLXN_15));
+   INV  XLXI_6 (.I(DIP_SW5_P102), 
+               .O(XLXN_14));
+   INV  XLXI_7 (.I(DIP_SW6_P101), 
+               .O(XLXN_13));
+   INV  XLXI_8 (.I(DIP_SW7_P100), 
+               .O(XLXN_12));
+   INV  XLXI_9 (.I(XLXN_12), 
+               .O(DIP_SWITCH[6]));
+   INV  XLXI_10 (.I(XLXN_13), 
+                .O(DIP_SWITCH[5]));
+   INV  XLXI_11 (.I(XLXN_14), 
+                .O(DIP_SWITCH[4]));
+   INV  XLXI_12 (.I(XLXN_15), 
+                .O(DIP_SWITCH[3]));
+   INV  XLXI_13 (.I(XLXN_16), 
+                .O(DIP_SWITCH[2]));
+   INV  XLXI_14 (.I(XLXN_17), 
+                .O(DIP_SWITCH[1]));
+   INV  XLXI_15 (.I(DIP_SW8_P99), 
+                .O(XLXN_25));
+   INV  XLXI_16 (.I(XLXN_25), 
+                .O(DIP_SWITCH[7]));
+endmodule
+`timescale 1ns / 1ps
+
+module slideswitch_MUSER_Lab8(SL_SW0_P66, 
+                              SL_SW1_P62, 
+                              SL_SW2_P61, 
+                              SL_SW3_P59, 
+                              SL_SW4_P58, 
+                              SL_SW5_P57, 
+                              SL_SW6_P56, 
+                              SL_SW7_P55, 
+                              SLIDE_SWITCH);
+
+    input SL_SW0_P66;
+    input SL_SW1_P62;
+    input SL_SW2_P61;
+    input SL_SW3_P59;
+    input SL_SW4_P58;
+    input SL_SW5_P57;
+    input SL_SW6_P56;
+    input SL_SW7_P55;
+   output [7:0] SLIDE_SWITCH;
+   
+   wire XLXN_12;
+   wire XLXN_13;
+   wire XLXN_14;
+   wire XLXN_15;
+   wire XLXN_16;
+   wire XLXN_22;
+   wire XLXN_24;
+   wire XLXN_25;
+   
+   INV  XLXI_2 (.I(SL_SW0_P66), 
+               .O(XLXN_12));
+   INV  XLXI_3 (.I(XLXN_12), 
+               .O(SLIDE_SWITCH[0]));
+   INV  XLXI_4 (.I(SL_SW1_P62), 
+               .O(XLXN_13));
+   INV  XLXI_5 (.I(XLXN_13), 
+               .O(SLIDE_SWITCH[1]));
+   INV  XLXI_6 (.I(SL_SW2_P61), 
+               .O(XLXN_14));
+   INV  XLXI_7 (.I(XLXN_14), 
+               .O(SLIDE_SWITCH[2]));
+   INV  XLXI_8 (.I(SL_SW3_P59), 
+               .O(XLXN_15));
+   INV  XLXI_9 (.I(XLXN_15), 
+               .O(SLIDE_SWITCH[3]));
+   INV  XLXI_10 (.I(SL_SW4_P58), 
+                .O(XLXN_16));
+   INV  XLXI_11 (.I(XLXN_16), 
+                .O(SLIDE_SWITCH[4]));
+   INV  XLXI_12 (.I(SL_SW5_P57), 
+                .O(XLXN_22));
+   INV  XLXI_13 (.I(XLXN_22), 
+                .O(SLIDE_SWITCH[5]));
+   INV  XLXI_14 (.I(SL_SW6_P56), 
+                .O(XLXN_24));
+   INV  XLXI_15 (.I(XLXN_24), 
+                .O(SLIDE_SWITCH[6]));
+   INV  XLXI_16 (.I(SL_SW7_P55), 
+                .O(XLXN_25));
+   INV  XLXI_17 (.I(XLXN_25), 
+                .O(SLIDE_SWITCH[7]));
+endmodule
+`timescale 1ns / 1ps
+
+module Mux_4_4_11_MUSER_Lab8(A3, 
+                             BIT, 
+                             B2, 
+                             B3, 
+                             C2, 
+                             C3, 
+                             D2, 
+                             D3, 
+                             OVERFLOW, 
+                             S, 
+                             A, 
+                             B, 
+                             C, 
+                             D);
+
+    input A3;
+    input [1:0] BIT;
+    input B2;
+    input B3;
+    input C2;
+    input C3;
+    input D2;
+    input D3;
+    input OVERFLOW;
+    input [7:0] S;
+   output A;
+   output B;
+   output C;
+   output D;
+   
+   wire XLXN_27;
+   
+   (* HU_SET = "XLXI_1_0" *) 
+   M4_1E_HXILINX_Lab8  XLXI_1 (.D0(S[0]), 
+                              .D1(S[4]), 
+                              .D2(OVERFLOW), 
+                              .D3(A3), 
+                              .E(XLXN_27), 
+                              .S0(BIT[0]), 
+                              .S1(BIT[1]), 
+                              .O(A));
+   (* HU_SET = "XLXI_2_1" *) 
+   M4_1E_HXILINX_Lab8  XLXI_2 (.D0(S[1]), 
+                              .D1(S[5]), 
+                              .D2(B2), 
+                              .D3(B3), 
+                              .E(XLXN_27), 
+                              .S0(BIT[0]), 
+                              .S1(BIT[1]), 
+                              .O(B));
+   (* HU_SET = "XLXI_3_2" *) 
+   M4_1E_HXILINX_Lab8  XLXI_3 (.D0(S[2]), 
+                              .D1(S[6]), 
+                              .D2(C2), 
+                              .D3(C3), 
+                              .E(XLXN_27), 
+                              .S0(BIT[0]), 
+                              .S1(BIT[1]), 
+                              .O(C));
+   (* HU_SET = "XLXI_4_3" *) 
+   M4_1E_HXILINX_Lab8  XLXI_4 (.D0(S[3]), 
+                              .D1(S[7]), 
+                              .D2(D2), 
+                              .D3(D3), 
+                              .E(XLXN_27), 
+                              .S0(BIT[0]), 
+                              .S1(BIT[1]), 
+                              .O(D));
+   VCC  XLXI_5 (.P(XLXN_27));
+endmodule
+`timescale 1ns / 1ps
+
+module Lab8(DIP_SW1_P112, 
+            DIP_SW2_P111, 
+            DIP_SW3_P105, 
+            DIP_SW4_P104, 
+            DIP_SW5_P102, 
+            DIP_SW6_P101, 
+            DIP_SW7_P100, 
+            DIP_SW8_P99, 
+            OSC, 
+            PB1_P45, 
+            SL_SW0_P66, 
+            SL_SW1_P62, 
+            SL_SW2_P61, 
+            SL_SW3_P59, 
+            SL_SW4_P58, 
+            SL_SW5_P57, 
+            SL_SW6_P56, 
+            SL_SW7_P55, 
+            a_P41, 
+            Buz, 
+            b_P40, 
+            COM0_P44, 
+            COM1_P43, 
+            COM2_P33, 
+            COM3_P300, 
+            c_P35, 
+            d_P34, 
+            e_P32, 
+            f_P29, 
+            g_P27);
+
+    input DIP_SW1_P112;
+    input DIP_SW2_P111;
+    input DIP_SW3_P105;
+    input DIP_SW4_P104;
+    input DIP_SW5_P102;
+    input DIP_SW6_P101;
+    input DIP_SW7_P100;
+    input DIP_SW8_P99;
+    input OSC;
+    input PB1_P45;
+    input SL_SW0_P66;
+    input SL_SW1_P62;
+    input SL_SW2_P61;
+    input SL_SW3_P59;
+    input SL_SW4_P58;
+    input SL_SW5_P57;
+    input SL_SW6_P56;
+    input SL_SW7_P55;
+   output a_P41;
+   output Buz;
+   output b_P40;
+   output COM0_P44;
+   output COM1_P43;
+   output COM2_P33;
+   output COM3_P300;
+   output c_P35;
+   output d_P34;
+   output e_P32;
+   output f_P29;
+   output g_P27;
+   
+   wire [7:0] XLXN_7;
+   wire XLXN_11;
+   wire XLXN_12;
+   wire XLXN_13;
+   wire XLXN_14;
+   wire [7:0] XLXN_50;
+   wire [7:0] XLXN_73;
+   wire XLXN_83;
+   wire [1:0] XLXN_85;
+   wire XLXN_91;
+   wire XLXN_92;
+   wire XLXN_93;
+   wire XLXN_94;
+   wire XLXN_95;
+   wire XLXN_96;
+   wire XLXN_97;
+   wire XLXN_98;
+   wire XLXN_138;
+   wire XLXN_141;
+   wire XLXN_142;
+   wire XLXN_146;
+   wire XLXN_163;
+   wire XLXN_168;
+   wire XLXN_169;
+   wire XLXN_170;
+   wire XLXN_172;
+   wire XLXN_173;
+   wire XLXN_175;
+   wire XLXN_176;
+   
+   (* HU_SET = "XLXI_1_4" *) 
+   ADD8_HXILINX_Lab8  XLXI_1 (.A(XLXN_50[7:0]), 
+                             .B(XLXN_73[7:0]), 
+                             .CI(), 
+                             .CO(XLXN_176), 
+                             .OFL(), 
+                             .S(XLXN_7[7:0]));
+   Sevenseg  XLXI_2 (.A(XLXN_11), 
+                    .B(XLXN_12), 
+                    .C(XLXN_13), 
+                    .D(XLXN_14), 
+                    .a_P41(a_P41), 
+                    .b_P40(b_P40), 
+                    .c_P35(c_P35), 
+                    .d_P34(d_P34), 
+                    .e_P32(e_P32), 
+                    .f_P29(f_P29), 
+                    .g_P27(g_P27));
+   Mux_4_4_11_MUSER_Lab8  XLXI_12 (.A3(XLXN_138), 
+                                  .BIT(XLXN_85[1:0]), 
+                                  .B2(XLXN_146), 
+                                  .B3(XLXN_138), 
+                                  .C2(XLXN_141), 
+                                  .C3(XLXN_138), 
+                                  .D2(XLXN_142), 
+                                  .D3(XLXN_138), 
+                                  .OVERFLOW(XLXN_176), 
+                                  .S(XLXN_7[7:0]), 
+                                  .A(XLXN_11), 
+                                  .B(XLXN_12), 
+                                  .C(XLXN_13), 
+                                  .D(XLXN_14));
+   slideswitch_MUSER_Lab8  XLXI_13 (.SL_SW0_P66(SL_SW0_P66), 
+                                   .SL_SW1_P62(SL_SW1_P62), 
+                                   .SL_SW2_P61(SL_SW2_P61), 
+                                   .SL_SW3_P59(SL_SW3_P59), 
+                                   .SL_SW4_P58(SL_SW4_P58), 
+                                   .SL_SW5_P57(SL_SW5_P57), 
+                                   .SL_SW6_P56(SL_SW6_P56), 
+                                   .SL_SW7_P55(SL_SW7_P55), 
+                                   .SLIDE_SWITCH(XLXN_50[7:0]));
+   DIP_switch_MUSER_Lab8  XLXI_18 (.DIP_SW1_P112(DIP_SW1_P112), 
+                                  .DIP_SW2_P111(DIP_SW2_P111), 
+                                  .DIP_SW3_P105(DIP_SW3_P105), 
+                                  .DIP_SW4_P104(DIP_SW4_P104), 
+                                  .DIP_SW5_P102(DIP_SW5_P102), 
+                                  .DIP_SW6_P101(DIP_SW6_P101), 
+                                  .DIP_SW7_P100(DIP_SW7_P100), 
+                                  .DIP_SW8_P99(DIP_SW8_P99), 
+                                  .DIP_SWITCH(XLXN_73[7:0]));
+   Counter03  XLXI_19 (.CLK(XLXN_83), 
+                      .BIT(XLXN_85[1:0]));
+   ModSelect  XLXI_20 (.INCLK(OSC), 
+                      .Mod_1M_Hz(), 
+                      .Mod_1_Hz(), 
+                      .Mod_2M_Hz(), 
+                      .Mod_2_Hz(), 
+                      .Mod_10K_Hz(), 
+                      .Mod_10M_Hz(), 
+                      .Mod_10_Hz(), 
+                      .Mod_20K_Hz(), 
+                      .Mod_20_Hz(), 
+                      .Mod_100K_Hz(), 
+                      .Mod_100_Hz(), 
+                      .Mod_200K_Hz(), 
+                      .Mod_200_Hz(), 
+                      .Mod_1000_Hz(), 
+                      .Mod_2000_Hz(XLXN_83));
+   Decoder2to4New  XLXI_23 (.BIT(XLXN_85[1:0]), 
+                           .COMMON0(COM0_P44), 
+                           .COMMON1(COM1_P43), 
+                           .COMMON2(XLXN_168), 
+                           .COMMON3());
+   INV  XLXI_25 (.I(XLXN_7[0]), 
+                .O(XLXN_91));
+   INV  XLXI_26 (.I(XLXN_7[1]), 
+                .O(XLXN_92));
+   INV  XLXI_27 (.I(XLXN_7[2]), 
+                .O(XLXN_93));
+   INV  XLXI_28 (.I(XLXN_7[3]), 
+                .O(XLXN_94));
+   INV  XLXI_29 (.I(XLXN_7[4]), 
+                .O(XLXN_95));
+   INV  XLXI_30 (.I(XLXN_7[5]), 
+                .O(XLXN_96));
+   INV  XLXI_31 (.I(XLXN_7[6]), 
+                .O(XLXN_97));
+   INV  XLXI_32 (.I(XLXN_7[7]), 
+                .O(XLXN_98));
+   GND  XLXI_45 (.G(XLXN_138));
+   GND  XLXI_47 (.G(XLXN_141));
+   GND  XLXI_48 (.G(XLXN_142));
+   GND  XLXI_49 (.G(XLXN_146));
+   VCC  XLXI_50 (.P(COM3_P300));
+   (* HU_SET = "XLXI_53_5" *) 
+   AND8_HXILINX_Lab8  XLXI_53 (.I0(XLXN_98), 
+                              .I1(XLXN_97), 
+                              .I2(XLXN_96), 
+                              .I3(XLXN_95), 
+                              .I4(XLXN_94), 
+                              .I5(XLXN_93), 
+                              .I6(XLXN_92), 
+                              .I7(XLXN_91), 
+                              .O(Buz));
+   INV  XLXI_55 (.I(XLXN_163), 
+                .O(COM2_P33));
+   (* HU_SET = "XLXI_58_6" *) 
+   FJKC_HXILINX_Lab8  XLXI_58 (.C(XLXN_173), 
+                              .CLR(XLXN_172), 
+                              .J(XLXN_170), 
+                              .K(XLXN_170), 
+                              .Q(XLXN_169));
+   VCC  XLXI_59 (.P(XLXN_170));
+   GND  XLXI_60 (.G(XLXN_172));
+   AND2  XLXI_61 (.I0(XLXN_175), 
+                 .I1(PB1_P45), 
+                 .O(XLXN_173));
+   VCC  XLXI_62 (.P(XLXN_175));
+   AND2B1  XLXI_64 (.I0(XLXN_168), 
+                   .I1(XLXN_169), 
+                   .O(XLXN_163));
+endmodule

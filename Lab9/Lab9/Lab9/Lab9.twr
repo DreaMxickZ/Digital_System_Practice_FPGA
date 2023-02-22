@@ -1,0 +1,219 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Lab9.twx Lab9.ncd -o Lab9.twr Lab9.pcf -ucf Lab9.ucf
+
+Design file:              Lab9.ncd
+Physical constraint file: Lab9.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock P46 to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+P27         |        13.437(R)|      SLOW  |         7.179(R)|      FAST  |P46_IBUF          |   0.000|
+P29         |        13.553(R)|      SLOW  |         7.168(R)|      FAST  |P46_IBUF          |   0.000|
+P32         |        14.601(R)|      SLOW  |         7.997(R)|      FAST  |P46_IBUF          |   0.000|
+P34         |        14.784(R)|      SLOW  |         7.972(R)|      FAST  |P46_IBUF          |   0.000|
+P35         |        14.238(R)|      SLOW  |         7.571(R)|      FAST  |P46_IBUF          |   0.000|
+P40         |        14.704(R)|      SLOW  |         7.920(R)|      FAST  |P46_IBUF          |   0.000|
+P41         |        14.744(R)|      SLOW  |         8.030(R)|      FAST  |P46_IBUF          |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock P_45 to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+LED_1       |         9.984(R)|      SLOW  |         5.852(R)|      FAST  |P_45_IBUF         |   0.000|
+LED_2       |         9.364(R)|      SLOW  |         5.392(R)|      FAST  |P_45_IBUF         |   0.000|
+LED_3       |         9.246(R)|      SLOW  |         5.246(R)|      FAST  |P_45_IBUF         |   0.000|
+LED_4       |         9.491(R)|      SLOW  |         5.400(R)|      FAST  |P_45_IBUF         |   0.000|
+P27         |        14.077(R)|      SLOW  |         6.067(R)|      FAST  |P_45_IBUF         |   0.000|
+P29         |        14.107(R)|      SLOW  |         6.270(R)|      FAST  |P_45_IBUF         |   0.000|
+P32         |        15.368(R)|      SLOW  |         6.849(R)|      FAST  |P_45_IBUF         |   0.000|
+P34         |        15.551(R)|      SLOW  |         6.911(R)|      FAST  |P_45_IBUF         |   0.000|
+P35         |        15.005(R)|      SLOW  |         6.498(R)|      FAST  |P_45_IBUF         |   0.000|
+P40         |        15.471(R)|      SLOW  |         7.049(R)|      FAST  |P_45_IBUF         |   0.000|
+P41         |        15.511(R)|      SLOW  |         6.853(R)|      FAST  |P_45_IBUF         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock OSC
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+OSC            |    2.143|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock P46
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+P46            |    0.876|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock P_45
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+P_45           |    1.484|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DIP_P99        |P27            |   13.819|
+DIP_P99        |P29            |   13.935|
+DIP_P99        |P32            |   14.920|
+DIP_P99        |P34            |   15.021|
+DIP_P99        |P35            |   14.475|
+DIP_P99        |P40            |   14.941|
+DIP_P99        |P41            |   14.981|
+DIP_P100       |P27            |   13.863|
+DIP_P100       |P29            |   13.979|
+DIP_P100       |P32            |   14.964|
+DIP_P100       |P34            |   15.065|
+DIP_P100       |P35            |   14.519|
+DIP_P100       |P40            |   14.985|
+DIP_P100       |P41            |   15.025|
+DIP_P101       |P27            |   13.990|
+DIP_P101       |P29            |   14.106|
+DIP_P101       |P32            |   15.091|
+DIP_P101       |P34            |   15.192|
+DIP_P101       |P35            |   14.646|
+DIP_P101       |P40            |   15.112|
+DIP_P101       |P41            |   15.152|
+DIP_P102       |P27            |   13.983|
+DIP_P102       |P29            |   14.099|
+DIP_P102       |P32            |   15.084|
+DIP_P102       |P34            |   15.185|
+DIP_P102       |P35            |   14.639|
+DIP_P102       |P40            |   15.105|
+DIP_P102       |P41            |   15.145|
+DIP_P104       |P27            |   13.762|
+DIP_P104       |P29            |   13.878|
+DIP_P104       |P32            |   14.863|
+DIP_P104       |P34            |   14.951|
+DIP_P104       |P35            |   14.405|
+DIP_P104       |P40            |   14.871|
+DIP_P104       |P41            |   14.911|
+DIP_P105       |P27            |   13.635|
+DIP_P105       |P29            |   13.751|
+DIP_P105       |P32            |   14.736|
+DIP_P105       |P34            |   14.880|
+DIP_P105       |P35            |   14.334|
+DIP_P105       |P40            |   14.800|
+DIP_P105       |P41            |   14.840|
+DIP_P111       |P27            |   13.518|
+DIP_P111       |P29            |   13.634|
+DIP_P111       |P32            |   14.619|
+DIP_P111       |P34            |   14.707|
+DIP_P111       |P35            |   14.161|
+DIP_P111       |P40            |   14.627|
+DIP_P111       |P41            |   14.667|
+DIP_P112       |P27            |   13.061|
+DIP_P112       |P29            |   13.091|
+DIP_P112       |P32            |   14.352|
+DIP_P112       |P34            |   14.535|
+DIP_P112       |P35            |   13.989|
+DIP_P112       |P40            |   14.455|
+DIP_P112       |P41            |   14.495|
+SL_P55         |P27            |   12.824|
+SL_P55         |P29            |   12.854|
+SL_P55         |P32            |   14.115|
+SL_P55         |P34            |   14.298|
+SL_P55         |P35            |   13.752|
+SL_P55         |P40            |   14.218|
+SL_P55         |P41            |   14.258|
+SL_P56         |P27            |   12.901|
+SL_P56         |P29            |   13.017|
+SL_P56         |P32            |   14.011|
+SL_P56         |P34            |   14.194|
+SL_P56         |P35            |   13.648|
+SL_P56         |P40            |   14.114|
+SL_P56         |P41            |   14.154|
+SL_P57         |P27            |   13.062|
+SL_P57         |P29            |   13.178|
+SL_P57         |P32            |   14.195|
+SL_P57         |P34            |   14.378|
+SL_P57         |P35            |   13.832|
+SL_P57         |P40            |   14.298|
+SL_P57         |P41            |   14.338|
+SL_P58         |P27            |   12.824|
+SL_P58         |P29            |   12.940|
+SL_P58         |P32            |   13.941|
+SL_P58         |P34            |   14.124|
+SL_P58         |P35            |   13.578|
+SL_P58         |P40            |   14.044|
+SL_P58         |P41            |   14.084|
+SL_P59         |P27            |   13.295|
+SL_P59         |P29            |   13.411|
+SL_P59         |P32            |   14.424|
+SL_P59         |P34            |   14.607|
+SL_P59         |P35            |   14.061|
+SL_P59         |P40            |   14.527|
+SL_P59         |P41            |   14.567|
+SL_P61         |P27            |   13.455|
+SL_P61         |P29            |   13.571|
+SL_P61         |P32            |   14.584|
+SL_P61         |P34            |   14.767|
+SL_P61         |P35            |   14.221|
+SL_P61         |P40            |   14.687|
+SL_P61         |P41            |   14.727|
+SL_P62         |P27            |   13.203|
+SL_P62         |P29            |   13.319|
+SL_P62         |P32            |   14.332|
+SL_P62         |P34            |   14.515|
+SL_P62         |P35            |   13.969|
+SL_P62         |P40            |   14.435|
+SL_P62         |P41            |   14.475|
+SL_P66         |P27            |   13.537|
+SL_P66         |P29            |   13.653|
+SL_P66         |P32            |   14.666|
+SL_P66         |P34            |   14.849|
+SL_P66         |P35            |   14.303|
+SL_P66         |P40            |   14.769|
+SL_P66         |P41            |   14.809|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Nov 07 21:45:59 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

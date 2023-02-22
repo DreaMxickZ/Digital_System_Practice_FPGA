@@ -1,0 +1,328 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : CLK_Moded.vf
+// /___/   /\     Timestamp : 10/19/2022 14:55:36
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/CLK_Moded.vf -w C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/CLK_Moded.sch
+//Design Name: CLK_Moded
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module CB4CE_HXILINX_CLK_Moded(CEO, Q0, Q1, Q2, Q3, TC, C, CE, CLR);
+   
+   localparam TERMINAL_COUNT = 4'b1111;
+   
+   output             CEO;
+   output             Q0;
+   output             Q1;
+   output             Q2;
+   output             Q3;
+   output             TC;
+
+   input 	      C;	
+   input 	      CE;	
+   input 	      CLR;	
+   
+   reg                Q0;
+   reg                Q1;
+   reg                Q2;
+   reg                Q3;
+   
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  {Q3, Q2, Q1, Q0} <= 4'b0000;
+	else if (CE)
+	  {Q3, Q2, Q1,Q0} <= {Q3, Q2, Q1,Q0} + 1;
+     end
+   
+   assign CEO = TC & CE;
+   assign TC = ({Q3, Q2, Q1, Q0} == TERMINAL_COUNT);
+   
+endmodule
+`timescale 100 ps / 10 ps
+
+module FJKC_HXILINX_CLK_Moded(Q, C, CLR, J, K);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              J;
+   input              K;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+
+
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else
+        begin
+           if(!J)
+           begin
+              if(K)
+              Q <= 1'b0;
+           end
+           else
+           begin
+              if(!K)
+              Q <= 1'b1;
+              else 
+              Q <= !Q;
+           end
+        end
+     end
+   
+endmodule
+`timescale 1ns / 1ps
+
+module CLK_Moded(clk_20mhz, 
+                 clk_1hz, 
+                 clk_2hz, 
+                 clk_2khz, 
+                 clk_2mhz, 
+                 clk_20hz, 
+                 clk_20khz, 
+                 clk_200hz, 
+                 clk_200khz);
+
+    input clk_20mhz;
+   output clk_1hz;
+   output clk_2hz;
+   output clk_2khz;
+   output clk_2mhz;
+   output clk_20hz;
+   output clk_20khz;
+   output clk_200hz;
+   output clk_200khz;
+   
+   wire XLXN_1065;
+   wire XLXN_1066;
+   wire XLXN_1067;
+   wire XLXN_1068;
+   wire XLXN_1069;
+   wire XLXN_1070;
+   wire XLXN_1071;
+   wire XLXN_1073;
+   wire XLXN_1074;
+   wire XLXN_1075;
+   wire XLXN_1076;
+   wire XLXN_1077;
+   wire XLXN_1078;
+   wire XLXN_1079;
+   wire XLXN_1082;
+   wire XLXN_1083;
+   wire XLXN_1084;
+   wire XLXN_1085;
+   wire XLXN_1086;
+   wire XLXN_1087;
+   wire XLXN_1088;
+   wire XLXN_1172;
+   wire XLXN_1173;
+   wire XLXN_1174;
+   wire XLXN_1175;
+   wire XLXN_1176;
+   wire XLXN_1177;
+   wire XLXN_1178;
+   wire XLXN_1181;
+   wire XLXN_1182;
+   wire XLXN_1183;
+   wire XLXN_1184;
+   wire XLXN_1185;
+   wire XLXN_1186;
+   wire XLXN_1187;
+   wire XLXN_1190;
+   wire XLXN_1191;
+   wire XLXN_1192;
+   wire XLXN_1193;
+   wire XLXN_1194;
+   wire XLXN_1195;
+   wire XLXN_1196;
+   wire XLXN_1199;
+   wire XLXN_1200;
+   wire XLXN_1201;
+   wire XLXN_1202;
+   wire XLXN_1203;
+   wire XLXN_1204;
+   wire XLXN_1205;
+   wire XLXN_1211;
+   wire XLXN_1212;
+   wire clk_2mhz_DUMMY;
+   wire clk_2hz_DUMMY;
+   wire clk_200khz_DUMMY;
+   wire clk_20khz_DUMMY;
+   wire clk_200hz_DUMMY;
+   wire clk_2khz_DUMMY;
+   wire clk_20hz_DUMMY;
+   
+   assign clk_2hz = clk_2hz_DUMMY;
+   assign clk_2khz = clk_2khz_DUMMY;
+   assign clk_2mhz = clk_2mhz_DUMMY;
+   assign clk_20hz = clk_20hz_DUMMY;
+   assign clk_20khz = clk_20khz_DUMMY;
+   assign clk_200hz = clk_200hz_DUMMY;
+   assign clk_200khz = clk_200khz_DUMMY;
+   VCC  XLXI_596 (.P(XLXN_1067));
+   (* HU_SET = "XLXI_597_32" *) 
+   CB4CE_HXILINX_CLK_Moded  XLXI_597 (.C(clk_20mhz), 
+                                     .CE(XLXN_1067), 
+                                     .CLR(clk_2mhz_DUMMY), 
+                                     .CEO(), 
+                                     .Q0(XLXN_1068), 
+                                     .Q1(XLXN_1069), 
+                                     .Q2(XLXN_1070), 
+                                     .Q3(XLXN_1071), 
+                                     .TC());
+   AND4  XLXI_598 (.I0(XLXN_1071), 
+                  .I1(XLXN_1066), 
+                  .I2(XLXN_1069), 
+                  .I3(XLXN_1065), 
+                  .O(clk_2mhz_DUMMY));
+   INV  XLXI_599 (.I(XLXN_1068), 
+                 .O(XLXN_1065));
+   INV  XLXI_600 (.I(XLXN_1070), 
+                 .O(XLXN_1066));
+   VCC  XLXI_601 (.P(XLXN_1075));
+   (* HU_SET = "XLXI_602_33" *) 
+   CB4CE_HXILINX_CLK_Moded  XLXI_602 (.C(clk_2mhz_DUMMY), 
+                                     .CE(XLXN_1075), 
+                                     .CLR(clk_200khz_DUMMY), 
+                                     .CEO(), 
+                                     .Q0(XLXN_1076), 
+                                     .Q1(XLXN_1077), 
+                                     .Q2(XLXN_1078), 
+                                     .Q3(XLXN_1079), 
+                                     .TC());
+   AND4  XLXI_603 (.I0(XLXN_1079), 
+                  .I1(XLXN_1074), 
+                  .I2(XLXN_1077), 
+                  .I3(XLXN_1073), 
+                  .O(clk_200khz_DUMMY));
+   INV  XLXI_604 (.I(XLXN_1076), 
+                 .O(XLXN_1073));
+   INV  XLXI_605 (.I(XLXN_1078), 
+                 .O(XLXN_1074));
+   VCC  XLXI_606 (.P(XLXN_1084));
+   (* HU_SET = "XLXI_607_34" *) 
+   CB4CE_HXILINX_CLK_Moded  XLXI_607 (.C(clk_200khz_DUMMY), 
+                                     .CE(XLXN_1084), 
+                                     .CLR(clk_20khz_DUMMY), 
+                                     .CEO(), 
+                                     .Q0(XLXN_1085), 
+                                     .Q1(XLXN_1086), 
+                                     .Q2(XLXN_1087), 
+                                     .Q3(XLXN_1088), 
+                                     .TC());
+   AND4  XLXI_608 (.I0(XLXN_1088), 
+                  .I1(XLXN_1083), 
+                  .I2(XLXN_1086), 
+                  .I3(XLXN_1082), 
+                  .O(clk_20khz_DUMMY));
+   INV  XLXI_609 (.I(XLXN_1085), 
+                 .O(XLXN_1082));
+   INV  XLXI_610 (.I(XLXN_1087), 
+                 .O(XLXN_1083));
+   VCC  XLXI_656 (.P(XLXN_1174));
+   (* HU_SET = "XLXI_657_35" *) 
+   CB4CE_HXILINX_CLK_Moded  XLXI_657 (.C(clk_20khz_DUMMY), 
+                                     .CE(XLXN_1174), 
+                                     .CLR(clk_2khz_DUMMY), 
+                                     .CEO(), 
+                                     .Q0(XLXN_1175), 
+                                     .Q1(XLXN_1176), 
+                                     .Q2(XLXN_1177), 
+                                     .Q3(XLXN_1178), 
+                                     .TC());
+   AND4  XLXI_658 (.I0(XLXN_1178), 
+                  .I1(XLXN_1173), 
+                  .I2(XLXN_1176), 
+                  .I3(XLXN_1172), 
+                  .O(clk_2khz_DUMMY));
+   INV  XLXI_659 (.I(XLXN_1175), 
+                 .O(XLXN_1172));
+   INV  XLXI_660 (.I(XLXN_1177), 
+                 .O(XLXN_1173));
+   VCC  XLXI_661 (.P(XLXN_1183));
+   (* HU_SET = "XLXI_662_36" *) 
+   CB4CE_HXILINX_CLK_Moded  XLXI_662 (.C(clk_2khz_DUMMY), 
+                                     .CE(XLXN_1183), 
+                                     .CLR(clk_200hz_DUMMY), 
+                                     .CEO(), 
+                                     .Q0(XLXN_1184), 
+                                     .Q1(XLXN_1185), 
+                                     .Q2(XLXN_1186), 
+                                     .Q3(XLXN_1187), 
+                                     .TC());
+   AND4  XLXI_663 (.I0(XLXN_1187), 
+                  .I1(XLXN_1182), 
+                  .I2(XLXN_1185), 
+                  .I3(XLXN_1181), 
+                  .O(clk_200hz_DUMMY));
+   INV  XLXI_664 (.I(XLXN_1184), 
+                 .O(XLXN_1181));
+   INV  XLXI_665 (.I(XLXN_1186), 
+                 .O(XLXN_1182));
+   VCC  XLXI_666 (.P(XLXN_1192));
+   (* HU_SET = "XLXI_667_37" *) 
+   CB4CE_HXILINX_CLK_Moded  XLXI_667 (.C(clk_200hz_DUMMY), 
+                                     .CE(XLXN_1192), 
+                                     .CLR(clk_20hz_DUMMY), 
+                                     .CEO(), 
+                                     .Q0(XLXN_1193), 
+                                     .Q1(XLXN_1194), 
+                                     .Q2(XLXN_1195), 
+                                     .Q3(XLXN_1196), 
+                                     .TC());
+   AND4  XLXI_668 (.I0(XLXN_1196), 
+                  .I1(XLXN_1191), 
+                  .I2(XLXN_1194), 
+                  .I3(XLXN_1190), 
+                  .O(clk_20hz_DUMMY));
+   INV  XLXI_669 (.I(XLXN_1193), 
+                 .O(XLXN_1190));
+   INV  XLXI_670 (.I(XLXN_1195), 
+                 .O(XLXN_1191));
+   VCC  XLXI_671 (.P(XLXN_1201));
+   (* HU_SET = "XLXI_672_38" *) 
+   CB4CE_HXILINX_CLK_Moded  XLXI_672 (.C(clk_20hz_DUMMY), 
+                                     .CE(XLXN_1201), 
+                                     .CLR(clk_2hz_DUMMY), 
+                                     .CEO(), 
+                                     .Q0(XLXN_1202), 
+                                     .Q1(XLXN_1203), 
+                                     .Q2(XLXN_1204), 
+                                     .Q3(XLXN_1205), 
+                                     .TC());
+   AND4  XLXI_673 (.I0(XLXN_1205), 
+                  .I1(XLXN_1200), 
+                  .I2(XLXN_1203), 
+                  .I3(XLXN_1199), 
+                  .O(clk_2hz_DUMMY));
+   INV  XLXI_674 (.I(XLXN_1202), 
+                 .O(XLXN_1199));
+   INV  XLXI_675 (.I(XLXN_1204), 
+                 .O(XLXN_1200));
+   (* HU_SET = "XLXI_676_39" *) 
+   FJKC_HXILINX_CLK_Moded  XLXI_676 (.C(clk_2hz_DUMMY), 
+                                    .CLR(XLXN_1212), 
+                                    .J(XLXN_1211), 
+                                    .K(XLXN_1211), 
+                                    .Q(clk_1hz));
+   VCC  XLXI_677 (.P(XLXN_1211));
+   GND  XLXI_678 (.G(XLXN_1212));
+endmodule

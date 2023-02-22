@@ -1,0 +1,145 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : sevensegsixnew.vf
+// /___/   /\     Timestamp : 10/05/2022 22:35:02
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/sevensegsixnew.vf -w C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/ModuleHandMake/sevensegsixnew.sch
+//Design Name: sevensegsixnew
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module sevensegsixnew(SW0_A, 
+                      SW1_B, 
+                      SW2_C, 
+                      SW3_D, 
+                      aa, 
+                      b, 
+                      c, 
+                      dd, 
+                      e, 
+                      f, 
+                      g);
+
+    input SW0_A;
+    input SW1_B;
+    input SW2_C;
+    input SW3_D;
+   output aa;
+   output b;
+   output c;
+   output dd;
+   output e;
+   output f;
+   output g;
+   
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_9;
+   wire XLXN_43;
+   wire XLXN_44;
+   wire XLXN_47;
+   wire XLXN_48;
+   wire XLXN_49;
+   wire XLXN_53;
+   wire XLXN_54;
+   wire XLXN_55;
+   wire XLXN_57;
+   wire XLXN_58;
+   wire XLXN_59;
+   wire XLXN_60;
+   wire XLXN_62;
+   
+   AND2B2  XLXI_3 (.I0(SW2_C), 
+                  .I1(SW0_A), 
+                  .O(XLXN_57));
+   OR4  XLXI_4 (.I0(SW1_B), 
+               .I1(SW3_D), 
+               .I2(XLXN_62), 
+               .I3(XLXN_57), 
+               .O(aa));
+   AND2B2  XLXI_6 (.I0(SW1_B), 
+                  .I1(SW0_A), 
+                  .O(XLXN_8));
+   AND2  XLXI_7 (.I0(SW1_B), 
+                .I1(SW0_A), 
+                .O(XLXN_9));
+   OR3  XLXI_8 (.I0(XLXN_9), 
+               .I1(XLXN_8), 
+               .I2(XLXN_7), 
+               .O(b));
+   INV  XLXI_9 (.I(SW2_C), 
+               .O(XLXN_7));
+   OR3B1  XLXI_26 (.I0(SW1_B), 
+                  .I1(SW2_C), 
+                  .I2(SW0_A), 
+                  .O(c));
+   AND2B2  XLXI_33 (.I0(SW2_C), 
+                   .I1(SW0_A), 
+                   .O(XLXN_43));
+   AND2B1  XLXI_34 (.I0(SW0_A), 
+                   .I1(SW1_B), 
+                   .O(XLXN_44));
+   OR2  XLXI_35 (.I0(XLXN_44), 
+                .I1(XLXN_43), 
+                .O(e));
+   AND3B2  XLXI_37 (.I0(SW3_D), 
+                   .I1(SW2_C), 
+                   .I2(SW1_B), 
+                   .O(XLXN_47));
+   AND2B1  XLXI_38 (.I0(SW1_B), 
+                   .I1(SW2_C), 
+                   .O(XLXN_48));
+   AND2B1  XLXI_39 (.I0(SW0_A), 
+                   .I1(SW1_B), 
+                   .O(XLXN_49));
+   OR4  XLXI_42 (.I0(XLXN_49), 
+                .I1(XLXN_48), 
+                .I2(SW3_D), 
+                .I3(XLXN_47), 
+                .O(g));
+   AND2B2  XLXI_43 (.I0(SW1_B), 
+                   .I1(SW0_A), 
+                   .O(XLXN_54));
+   AND2B1  XLXI_44 (.I0(SW1_B), 
+                   .I1(SW2_C), 
+                   .O(XLXN_53));
+   AND2B1  XLXI_45 (.I0(SW0_A), 
+                   .I1(SW2_C), 
+                   .O(XLXN_55));
+   OR4  XLXI_46 (.I0(XLXN_55), 
+                .I1(XLXN_54), 
+                .I2(XLXN_53), 
+                .I3(SW3_D), 
+                .O(f));
+   OR5  XLXI_52 (.I0(SW3_D), 
+                .I1(XLXN_59), 
+                .I2(XLXN_58), 
+                .I3(XLXN_60), 
+                .I4(XLXN_57), 
+                .O(dd));
+   AND3B1  XLXI_53 (.I0(SW1_B), 
+                   .I1(SW2_C), 
+                   .I2(SW0_A), 
+                   .O(XLXN_60));
+   AND2B1  XLXI_54 (.I0(SW0_A), 
+                   .I1(SW1_B), 
+                   .O(XLXN_58));
+   AND2B1  XLXI_55 (.I0(SW2_C), 
+                   .I1(SW1_B), 
+                   .O(XLXN_59));
+   AND2  XLXI_56 (.I0(SW2_C), 
+                 .I1(SW0_A), 
+                 .O(XLXN_62));
+endmodule

@@ -1,0 +1,131 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : FLIPFLOP16_CLKOUT.vf
+// /___/   /\     Timestamp : 10/06/2022 23:15:21
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/FLIPFLOP16_CLKOUT.vf -w C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab7/Lab7/FLIPFLOP16_CLKOUT.sch
+//Design Name: FLIPFLOP16_CLKOUT
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FJKC_HXILINX_FLIPFLOP16_CLKOUT(Q, C, CLR, J, K);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              J;
+   input              K;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+
+
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else
+        begin
+           if(!J)
+           begin
+              if(K)
+              Q <= 1'b0;
+           end
+           else
+           begin
+              if(!K)
+              Q <= 1'b1;
+              else 
+              Q <= !Q;
+           end
+        end
+     end
+   
+endmodule
+`timescale 1ns / 1ps
+
+module FLIPFLOP16_CLKOUT(CLK, 
+                         ClockSwitch, 
+                         CLRIN, 
+                         OutA, 
+                         OutB, 
+                         OutC, 
+                         outtoggle);
+
+    input CLK;
+    input ClockSwitch;
+    input CLRIN;
+   output OutA;
+   output OutB;
+   output OutC;
+   output outtoggle;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_15;
+   wire XLXN_21;
+   wire XLXN_29;
+   wire outtoggle_DUMMY;
+   wire OutA_DUMMY;
+   wire OutB_DUMMY;
+   wire OutC_DUMMY;
+   
+   assign OutA = OutA_DUMMY;
+   assign OutB = OutB_DUMMY;
+   assign OutC = OutC_DUMMY;
+   assign outtoggle = outtoggle_DUMMY;
+   (* HU_SET = "XLXI_1_0" *) 
+   FJKC_HXILINX_FLIPFLOP16_CLKOUT  XLXI_1 (.C(XLXN_15), 
+                                          .CLR(outtoggle_DUMMY), 
+                                          .J(XLXN_1), 
+                                          .K(XLXN_2), 
+                                          .Q(OutA_DUMMY));
+   (* HU_SET = "XLXI_2_1" *) 
+   FJKC_HXILINX_FLIPFLOP16_CLKOUT  XLXI_2 (.C(XLXN_15), 
+                                          .CLR(outtoggle_DUMMY), 
+                                          .J(OutA_DUMMY), 
+                                          .K(XLXN_7), 
+                                          .Q(OutB_DUMMY));
+   VCC  XLXI_3 (.P(XLXN_1));
+   VCC  XLXI_4 (.P(XLXN_2));
+   AND2  XLXI_5 (.I0(OutB_DUMMY), 
+                .I1(OutA_DUMMY), 
+                .O(XLXN_6));
+   (* HU_SET = "XLXI_6_2" *) 
+   FJKC_HXILINX_FLIPFLOP16_CLKOUT  XLXI_6 (.C(XLXN_15), 
+                                          .CLR(outtoggle_DUMMY), 
+                                          .J(XLXN_6), 
+                                          .K(OutB_DUMMY), 
+                                          .Q(OutC_DUMMY));
+   OR2  XLXI_7 (.I0(OutC_DUMMY), 
+               .I1(OutA_DUMMY), 
+               .O(XLXN_7));
+   AND2  XLXI_11 (.I0(CLK), 
+                 .I1(ClockSwitch), 
+                 .O(XLXN_15));
+   AND2  XLXI_14 (.I0(CLRIN), 
+                 .I1(XLXN_21), 
+                 .O(outtoggle_DUMMY));
+   VCC  XLXI_15 (.P(XLXN_21));
+   AND2  XLXI_22 (.I0(OutB_DUMMY), 
+                 .I1(OutC_DUMMY), 
+                 .O(XLXN_29));
+   AND2  XLXI_23 (.I0(OutA_DUMMY), 
+                 .I1(XLXN_29), 
+                 .O(outtoggle_DUMMY));
+endmodule

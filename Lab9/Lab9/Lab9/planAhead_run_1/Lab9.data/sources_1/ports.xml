@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="DIP_P99" Dir="IN"/>
+		<Port Id="DIP_P100" Dir="IN"/>
+		<Port Id="DIP_P101" Dir="IN"/>
+		<Port Id="DIP_P102" Dir="IN"/>
+		<Port Id="DIP_P104" Dir="IN"/>
+		<Port Id="DIP_P105" Dir="IN"/>
+		<Port Id="DIP_P111" Dir="IN"/>
+		<Port Id="DIP_P112" Dir="IN"/>
+		<Port Id="OSC" Dir="IN"/>
+		<Port Id="P_45" Dir="IN"/>
+		<Port Id="SL_P55" Dir="IN"/>
+		<Port Id="SL_P56" Dir="IN"/>
+		<Port Id="SL_P57" Dir="IN"/>
+		<Port Id="SL_P58" Dir="IN"/>
+		<Port Id="SL_P59" Dir="IN"/>
+		<Port Id="SL_P61" Dir="IN"/>
+		<Port Id="SL_P62" Dir="IN"/>
+		<Port Id="SL_P66" Dir="IN"/>
+		<Port Id="P27" Dir="OUT"/>
+		<Port Id="P29" Dir="OUT"/>
+		<Port Id="P32" Dir="OUT"/>
+		<Port Id="P34" Dir="OUT"/>
+		<Port Id="P35" Dir="OUT"/>
+		<Port Id="P40" Dir="OUT"/>
+		<Port Id="P41" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

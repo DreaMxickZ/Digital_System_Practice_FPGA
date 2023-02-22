@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan6 -refsym CheckCompare C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6/CheckCompare.sch C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/CheckCompare.sym 
+sch2sym -intstyle ise -family spartan6 -refsym CheckCompare C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6/CheckCompare.sch C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/Lab6New/CheckCompare.sym 

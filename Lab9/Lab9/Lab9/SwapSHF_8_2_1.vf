@@ -1,0 +1,96 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : SwapSHF_8_2_1.vf
+// /___/   /\     Timestamp : 11/01/2022 21:36:55
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/SwapSHF_8_2_1.vf -w C:/Users/DreaMxickZen/Desktop/DigitalLab/Lab9/Lab9/SwapSHF_8_2_1.sch
+//Design Name: SwapSHF_8_2_1
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module M2_1_HXILINX_SwapSHF_8_2_1 (O, D0, D1, S0);
+    
+
+   output O;
+
+   input  D0;
+   input  D1;
+   input  S0;
+
+   reg O;
+
+   always @ ( D0 or D1 or S0)
+   begin
+      case(S0)
+      1'b0 : O <= D0;
+      1'b1 : O <= D1;
+      endcase
+   end
+    
+endmodule
+`timescale 1ns / 1ps
+
+module SwapSHF_8_2_1(AAA, 
+                     BBB, 
+                     Swap_Bit, 
+                     OUTBITSHF);
+
+    input [7:0] AAA;
+    input [7:0] BBB;
+    input Swap_Bit;
+   output [7:0] OUTBITSHF;
+   
+   
+   (* HU_SET = "XLXI_1_32" *) 
+   M2_1_HXILINX_SwapSHF_8_2_1  XLXI_1 (.D0(AAA[0]), 
+                                      .D1(BBB[0]), 
+                                      .S0(Swap_Bit), 
+                                      .O(OUTBITSHF[0]));
+   (* HU_SET = "XLXI_2_33" *) 
+   M2_1_HXILINX_SwapSHF_8_2_1  XLXI_2 (.D0(AAA[1]), 
+                                      .D1(BBB[1]), 
+                                      .S0(Swap_Bit), 
+                                      .O(OUTBITSHF[1]));
+   (* HU_SET = "XLXI_3_34" *) 
+   M2_1_HXILINX_SwapSHF_8_2_1  XLXI_3 (.D0(AAA[2]), 
+                                      .D1(BBB[2]), 
+                                      .S0(Swap_Bit), 
+                                      .O(OUTBITSHF[2]));
+   (* HU_SET = "XLXI_4_35" *) 
+   M2_1_HXILINX_SwapSHF_8_2_1  XLXI_4 (.D0(AAA[3]), 
+                                      .D1(BBB[3]), 
+                                      .S0(Swap_Bit), 
+                                      .O(OUTBITSHF[3]));
+   (* HU_SET = "XLXI_5_36" *) 
+   M2_1_HXILINX_SwapSHF_8_2_1  XLXI_5 (.D0(AAA[4]), 
+                                      .D1(BBB[4]), 
+                                      .S0(Swap_Bit), 
+                                      .O(OUTBITSHF[4]));
+   (* HU_SET = "XLXI_6_37" *) 
+   M2_1_HXILINX_SwapSHF_8_2_1  XLXI_6 (.D0(AAA[5]), 
+                                      .D1(BBB[5]), 
+                                      .S0(Swap_Bit), 
+                                      .O(OUTBITSHF[5]));
+   (* HU_SET = "XLXI_7_38" *) 
+   M2_1_HXILINX_SwapSHF_8_2_1  XLXI_7 (.D0(AAA[6]), 
+                                      .D1(BBB[6]), 
+                                      .S0(Swap_Bit), 
+                                      .O(OUTBITSHF[6]));
+   (* HU_SET = "XLXI_8_39" *) 
+   M2_1_HXILINX_SwapSHF_8_2_1  XLXI_8 (.D0(AAA[7]), 
+                                      .D1(BBB[7]), 
+                                      .S0(Swap_Bit), 
+                                      .O(OUTBITSHF[7]));
+endmodule

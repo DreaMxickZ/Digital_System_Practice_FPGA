@@ -1,0 +1,116 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : counter16_async.vf
+// /___/   /\     Timestamp : 10/07/2022 18:07:39
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/counter16_async.vf -w C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/counter16_async.sch
+//Design Name: counter16_async
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FJKC_HXILINX_counter16_async(Q, C, CLR, J, K);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              J;
+   input              K;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+
+
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else
+        begin
+           if(!J)
+           begin
+              if(K)
+              Q <= 1'b0;
+           end
+           else
+           begin
+              if(!K)
+              Q <= 1'b1;
+              else 
+              Q <= !Q;
+           end
+        end
+     end
+   
+endmodule
+`timescale 1ns / 1ps
+
+module counter16_async(CLK, 
+                       ClockSwitch, 
+                       CLRIN, 
+                       OutA, 
+                       OUTBB, 
+                       OutC, 
+                       OutCLK6);
+
+    input CLK;
+    input ClockSwitch;
+    input CLRIN;
+   output OutA;
+   output OUTBB;
+   output OutC;
+   output OutCLK6;
+   
+   wire OutB;
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_7;
+   wire OutA_DUMMY;
+   wire OutC_DUMMY;
+   wire OUTBB_DUMMY;
+   
+   assign OutA = OutA_DUMMY;
+   assign OUTBB = OUTBB_DUMMY;
+   assign OutC = OutC_DUMMY;
+   (* HU_SET = "XLXI_1_0" *) 
+   FJKC_HXILINX_counter16_async  XLXI_1 (.C(XLXN_7), 
+                                        .CLR(CLRIN), 
+                                        .J(XLXN_1), 
+                                        .K(XLXN_2), 
+                                        .Q(OutA_DUMMY));
+   (* HU_SET = "XLXI_2_2" *) 
+   FJKC_HXILINX_counter16_async  XLXI_2 (.C(OutA_DUMMY), 
+                                        .CLR(CLRIN), 
+                                        .J(OutA_DUMMY), 
+                                        .K(OutA_DUMMY), 
+                                        .Q(OUTBB_DUMMY));
+   VCC  XLXI_3 (.P(XLXN_1));
+   VCC  XLXI_4 (.P(XLXN_2));
+   (* HU_SET = "XLXI_6_1" *) 
+   FJKC_HXILINX_counter16_async  XLXI_6 (.C(OutB), 
+                                        .CLR(CLRIN), 
+                                        .J(OutB), 
+                                        .K(OutB), 
+                                        .Q(OutC_DUMMY));
+   AND2  XLXI_11 (.I0(CLK), 
+                 .I1(ClockSwitch), 
+                 .O(XLXN_7));
+   AND2  XLXI_12 (.I0(OUTBB_DUMMY), 
+                 .I1(OutC_DUMMY), 
+                 .O(OutCLK6));
+   AND2  XLXI_15 (.I0(OUTBB_DUMMY), 
+                 .I1(OutA_DUMMY), 
+                 .O(OutB));
+endmodule

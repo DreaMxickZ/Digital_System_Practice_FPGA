@@ -1,0 +1,203 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Lab8.twx Lab8.ncd -o Lab8.twr Lab8.pcf -ucf Lab8.ucf
+
+Design file:              Lab8.ncd
+Physical constraint file: Lab8.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock PB1_P45 to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+COM2_P33    |         7.211(R)|      SLOW  |         4.059(R)|      FAST  |PB1_P45_IBUF      |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock OSC
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+OSC            |    2.314|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock PB1_P45
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+PB1_P45        |    0.876|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DIP_SW1_P112   |Buz            |   11.042|
+DIP_SW1_P112   |a_P41          |   13.357|
+DIP_SW1_P112   |b_P40          |   13.160|
+DIP_SW1_P112   |c_P35          |   12.960|
+DIP_SW1_P112   |d_P34          |   13.248|
+DIP_SW1_P112   |e_P32          |   12.934|
+DIP_SW1_P112   |f_P29          |   12.105|
+DIP_SW1_P112   |g_P27          |   12.527|
+DIP_SW2_P111   |Buz            |   11.085|
+DIP_SW2_P111   |a_P41          |   13.400|
+DIP_SW2_P111   |b_P40          |   13.203|
+DIP_SW2_P111   |c_P35          |   13.003|
+DIP_SW2_P111   |d_P34          |   13.291|
+DIP_SW2_P111   |e_P32          |   12.977|
+DIP_SW2_P111   |f_P29          |   12.148|
+DIP_SW2_P111   |g_P27          |   12.570|
+DIP_SW3_P105   |Buz            |   10.991|
+DIP_SW3_P105   |a_P41          |   13.306|
+DIP_SW3_P105   |b_P40          |   13.109|
+DIP_SW3_P105   |c_P35          |   12.909|
+DIP_SW3_P105   |d_P34          |   13.197|
+DIP_SW3_P105   |e_P32          |   12.883|
+DIP_SW3_P105   |f_P29          |   12.054|
+DIP_SW3_P105   |g_P27          |   12.476|
+DIP_SW4_P104   |Buz            |   10.895|
+DIP_SW4_P104   |a_P41          |   13.210|
+DIP_SW4_P104   |b_P40          |   13.013|
+DIP_SW4_P104   |c_P35          |   12.813|
+DIP_SW4_P104   |d_P34          |   13.101|
+DIP_SW4_P104   |e_P32          |   12.787|
+DIP_SW4_P104   |f_P29          |   11.958|
+DIP_SW4_P104   |g_P27          |   12.380|
+DIP_SW5_P102   |Buz            |   10.870|
+DIP_SW5_P102   |a_P41          |   13.185|
+DIP_SW5_P102   |b_P40          |   12.988|
+DIP_SW5_P102   |c_P35          |   12.788|
+DIP_SW5_P102   |d_P34          |   13.076|
+DIP_SW5_P102   |e_P32          |   12.762|
+DIP_SW5_P102   |f_P29          |   11.945|
+DIP_SW5_P102   |g_P27          |   12.355|
+DIP_SW6_P101   |Buz            |   10.731|
+DIP_SW6_P101   |a_P41          |   13.046|
+DIP_SW6_P101   |b_P40          |   12.849|
+DIP_SW6_P101   |c_P35          |   12.649|
+DIP_SW6_P101   |d_P34          |   12.937|
+DIP_SW6_P101   |e_P32          |   12.623|
+DIP_SW6_P101   |f_P29          |   11.790|
+DIP_SW6_P101   |g_P27          |   12.216|
+DIP_SW7_P100   |Buz            |   10.404|
+DIP_SW7_P100   |a_P41          |   12.719|
+DIP_SW7_P100   |b_P40          |   12.522|
+DIP_SW7_P100   |c_P35          |   12.322|
+DIP_SW7_P100   |d_P34          |   12.610|
+DIP_SW7_P100   |e_P32          |   12.296|
+DIP_SW7_P100   |f_P29          |   11.486|
+DIP_SW7_P100   |g_P27          |   11.889|
+DIP_SW8_P99    |Buz            |   10.282|
+DIP_SW8_P99    |a_P41          |   12.597|
+DIP_SW8_P99    |b_P40          |   12.400|
+DIP_SW8_P99    |c_P35          |   12.200|
+DIP_SW8_P99    |d_P34          |   12.488|
+DIP_SW8_P99    |e_P32          |   12.174|
+DIP_SW8_P99    |f_P29          |   11.124|
+DIP_SW8_P99    |g_P27          |   11.767|
+SL_SW0_P66     |Buz            |   10.178|
+SL_SW0_P66     |a_P41          |   12.493|
+SL_SW0_P66     |b_P40          |   12.296|
+SL_SW0_P66     |c_P35          |   12.096|
+SL_SW0_P66     |d_P34          |   12.384|
+SL_SW0_P66     |e_P32          |   12.070|
+SL_SW0_P66     |f_P29          |   11.241|
+SL_SW0_P66     |g_P27          |   11.663|
+SL_SW1_P62     |Buz            |    9.825|
+SL_SW1_P62     |a_P41          |   12.140|
+SL_SW1_P62     |b_P40          |   11.943|
+SL_SW1_P62     |c_P35          |   11.743|
+SL_SW1_P62     |d_P34          |   12.031|
+SL_SW1_P62     |e_P32          |   11.717|
+SL_SW1_P62     |f_P29          |   10.888|
+SL_SW1_P62     |g_P27          |   11.310|
+SL_SW2_P61     |Buz            |    9.708|
+SL_SW2_P61     |a_P41          |   12.023|
+SL_SW2_P61     |b_P40          |   11.826|
+SL_SW2_P61     |c_P35          |   11.626|
+SL_SW2_P61     |d_P34          |   11.914|
+SL_SW2_P61     |e_P32          |   11.600|
+SL_SW2_P61     |f_P29          |   10.771|
+SL_SW2_P61     |g_P27          |   11.193|
+SL_SW3_P59     |Buz            |    9.804|
+SL_SW3_P59     |a_P41          |   12.119|
+SL_SW3_P59     |b_P40          |   11.922|
+SL_SW3_P59     |c_P35          |   11.722|
+SL_SW3_P59     |d_P34          |   12.010|
+SL_SW3_P59     |e_P32          |   11.696|
+SL_SW3_P59     |f_P29          |   10.867|
+SL_SW3_P59     |g_P27          |   11.289|
+SL_SW4_P58     |Buz            |    9.841|
+SL_SW4_P58     |a_P41          |   12.156|
+SL_SW4_P58     |b_P40          |   11.959|
+SL_SW4_P58     |c_P35          |   11.759|
+SL_SW4_P58     |d_P34          |   12.047|
+SL_SW4_P58     |e_P32          |   11.733|
+SL_SW4_P58     |f_P29          |   10.916|
+SL_SW4_P58     |g_P27          |   11.326|
+SL_SW5_P57     |Buz            |    9.464|
+SL_SW5_P57     |a_P41          |   11.779|
+SL_SW5_P57     |b_P40          |   11.582|
+SL_SW5_P57     |c_P35          |   11.382|
+SL_SW5_P57     |d_P34          |   11.670|
+SL_SW5_P57     |e_P32          |   11.356|
+SL_SW5_P57     |f_P29          |   10.523|
+SL_SW5_P57     |g_P27          |   10.949|
+SL_SW6_P56     |Buz            |    9.661|
+SL_SW6_P56     |a_P41          |   11.976|
+SL_SW6_P56     |b_P40          |   11.779|
+SL_SW6_P56     |c_P35          |   11.579|
+SL_SW6_P56     |d_P34          |   11.867|
+SL_SW6_P56     |e_P32          |   11.553|
+SL_SW6_P56     |f_P29          |   10.743|
+SL_SW6_P56     |g_P27          |   11.146|
+SL_SW7_P55     |Buz            |    9.435|
+SL_SW7_P55     |a_P41          |   11.750|
+SL_SW7_P55     |b_P40          |   11.553|
+SL_SW7_P55     |c_P35          |   11.353|
+SL_SW7_P55     |d_P34          |   11.641|
+SL_SW7_P55     |e_P32          |   11.327|
+SL_SW7_P55     |f_P29          |   10.277|
+SL_SW7_P55     |g_P27          |   10.920|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Oct 19 00:27:33 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

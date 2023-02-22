@@ -1,0 +1,992 @@
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/DreaMxickZen/Desktop/DigitalLab/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -bm SyncCounter1_6.bmm -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+sch2sym -intstyle ise -family spartan6 -refsym SecondTest C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.sch C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.sym 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.xst" -ofn "C:/Users/XickZenF5/Desktop/DigitalLab081065/DigitalLab/LabTestSecond/SecondTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SecondTest.ucf -p xc6slx9-tqg144-3 SecondTest.ngc SecondTest.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SecondTest_map.ncd SecondTest.ngd SecondTest.pcf 
+par -w -intstyle ise -ol high -mt off SecondTest_map.ncd SecondTest.ncd SecondTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SecondTest.twx SecondTest.ncd -o SecondTest.twr SecondTest.pcf -ucf SecondTest.ucf 
+bitgen -intstyle ise -f SecondTest.ut SecondTest.ncd 

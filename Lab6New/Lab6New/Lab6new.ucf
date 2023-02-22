@@ -1,0 +1,16 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "XLXN_64" LOC = P41;
+NET "XLXN_65" LOC = P40;
+NET "XLXN_66" LOC = P35;
+NET "XLXN_70" LOC = P34;
+NET "XLXN_67" LOC = P32;
+NET "XLXN_69" LOC = P29;
+NET "XLXN_68" LOC = P27;
+NET "com000" LOC = P44;
+NET "com111" LOC = P43;
+NET "Preclock" LOC = P123;
+NET "CLK_Switch" LOC = P47;
+NET "CLR_Switch" LOC = P46;
+NET "buz" LOC = P83;

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf" Line 653: Input port <arg fmt="%s" index="1">CLR</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf" Line 662: Input port <arg fmt="%s" index="1">CLR</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf" Line 670: Input port <arg fmt="%s" index="1">CLR</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf" Line 678: Input port <arg fmt="%s" index="1">CLR</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf" Line 686: Input port <arg fmt="%s" index="1">CLR</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf" Line 694: Input port <arg fmt="%s" index="1">CLR</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf" Line 702: Input port <arg fmt="%s" index="1">CLR</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf" Line 48: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf" Line 1100: Input port <arg fmt="%s" index="1">A0</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%d" index="2">1100</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">XLXI_166</arg>&gt; of block &lt;<arg fmt="%s" index="4">D2_4E_HXILINX_SecondTest</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SecondTest</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">A0</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_166</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">A1</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_166</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">E</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_166</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1071</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_153</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_1M_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_1_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_2M_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_2_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_10K_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_10M_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_10_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_20K_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_20_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_100K_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_100_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_200K_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_200_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1083</arg>: Output port &lt;<arg fmt="%s" index="3">Mod_1000_Hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_159</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1100</arg>: Output port &lt;<arg fmt="%s" index="3">D0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_166</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1100</arg>: Output port &lt;<arg fmt="%s" index="3">D1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_166</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1100</arg>: Output port &lt;<arg fmt="%s" index="3">D2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_166</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1100</arg>: Output port &lt;<arg fmt="%s" index="3">D3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_166</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1114</arg>: Output port &lt;<arg fmt="%s" index="3">clk_2hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_170</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1114</arg>: Output port &lt;<arg fmt="%s" index="3">clk_2khz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_170</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1114</arg>: Output port &lt;<arg fmt="%s" index="3">clk_2mhz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_170</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1114</arg>: Output port &lt;<arg fmt="%s" index="3">clk_20hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_170</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1114</arg>: Output port &lt;<arg fmt="%s" index="3">clk_20khz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_170</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1114</arg>: Output port &lt;<arg fmt="%s" index="3">clk_200hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_170</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">1114</arg>: Output port &lt;<arg fmt="%s" index="3">clk_200khz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_170</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">653</arg>: Output port &lt;<arg fmt="%s" index="3">A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">653</arg>: Output port &lt;<arg fmt="%s" index="3">B</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">653</arg>: Output port &lt;<arg fmt="%s" index="3">C</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">653</arg>: Output port &lt;<arg fmt="%s" index="3">D</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">662</arg>: Output port &lt;<arg fmt="%s" index="3">A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">662</arg>: Output port &lt;<arg fmt="%s" index="3">B</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">662</arg>: Output port &lt;<arg fmt="%s" index="3">C</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">662</arg>: Output port &lt;<arg fmt="%s" index="3">D</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">670</arg>: Output port &lt;<arg fmt="%s" index="3">A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">670</arg>: Output port &lt;<arg fmt="%s" index="3">B</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">670</arg>: Output port &lt;<arg fmt="%s" index="3">C</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">670</arg>: Output port &lt;<arg fmt="%s" index="3">D</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">678</arg>: Output port &lt;<arg fmt="%s" index="3">A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">678</arg>: Output port &lt;<arg fmt="%s" index="3">B</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">678</arg>: Output port &lt;<arg fmt="%s" index="3">C</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">678</arg>: Output port &lt;<arg fmt="%s" index="3">D</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">686</arg>: Output port &lt;<arg fmt="%s" index="3">A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">686</arg>: Output port &lt;<arg fmt="%s" index="3">B</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">686</arg>: Output port &lt;<arg fmt="%s" index="3">C</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">686</arg>: Output port &lt;<arg fmt="%s" index="3">D</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">694</arg>: Output port &lt;<arg fmt="%s" index="3">A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">694</arg>: Output port &lt;<arg fmt="%s" index="3">B</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">694</arg>: Output port &lt;<arg fmt="%s" index="3">C</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">694</arg>: Output port &lt;<arg fmt="%s" index="3">D</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">702</arg>: Output port &lt;<arg fmt="%s" index="3">A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">702</arg>: Output port &lt;<arg fmt="%s" index="3">B</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">702</arg>: Output port &lt;<arg fmt="%s" index="3">C</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">702</arg>: Output port &lt;<arg fmt="%s" index="3">D</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">250</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_597</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">250</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_597</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">270</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_602</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">270</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_602</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">290</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_607</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">290</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_607</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">310</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_657</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">310</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_657</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">330</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_662</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">330</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_662</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_667</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_667</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">370</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_672</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\DigitalLab081065\DigitalLab\LabTestSecond\SecondTest.vf</arg>&quot; line <arg fmt="%s" index="2">370</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_672</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_29</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_159</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_28</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_159</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_27</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_159</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_26</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_159</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_24</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_159</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_23</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_159</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_22</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_159</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_21</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_159</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="old" >All outputs of instance &lt;<arg fmt="%s" index="1">XLXI_159/XLXI_21</arg>&gt; of block &lt;<arg fmt="%s" index="2">FJKC_HXILINX_SecondTest</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">SecondTest</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="old" >All outputs of instance &lt;<arg fmt="%s" index="1">XLXI_159/XLXI_22</arg>&gt; of block &lt;<arg fmt="%s" index="2">FJKC_HXILINX_SecondTest</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">SecondTest</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="old" >All outputs of instance &lt;<arg fmt="%s" index="1">XLXI_159/XLXI_23</arg>&gt; of block &lt;<arg fmt="%s" index="2">FJKC_HXILINX_SecondTest</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">SecondTest</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="old" >All outputs of instance &lt;<arg fmt="%s" index="1">XLXI_159/XLXI_24</arg>&gt; of block &lt;<arg fmt="%s" index="2">FJKC_HXILINX_SecondTest</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">SecondTest</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="old" >All outputs of instance &lt;<arg fmt="%s" index="1">XLXI_159/XLXI_26</arg>&gt; of block &lt;<arg fmt="%s" index="2">FJKC_HXILINX_SecondTest</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">SecondTest</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="old" >All outputs of instance &lt;<arg fmt="%s" index="1">XLXI_159/XLXI_27</arg>&gt; of block &lt;<arg fmt="%s" index="2">FJKC_HXILINX_SecondTest</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">SecondTest</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="old" >All outputs of instance &lt;<arg fmt="%s" index="1">XLXI_159/XLXI_28</arg>&gt; of block &lt;<arg fmt="%s" index="2">FJKC_HXILINX_SecondTest</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">SecondTest</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="old" >All outputs of instance &lt;<arg fmt="%s" index="1">XLXI_159/XLXI_29</arg>&gt; of block &lt;<arg fmt="%s" index="2">FJKC_HXILINX_SecondTest</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">SecondTest</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

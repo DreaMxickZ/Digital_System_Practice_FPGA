@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../ModuleHandMake/divider/DIVIDER10.vhd -prj LabTestSecond -o DIVIDER10.spl -module DIVIDER10 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 DIVIDER10.spl C:/Users/XickZenF5/Desktop/DigitalLab071065/DigitalLab/LabTestSecond/DIVIDER10.sym 

@@ -1,0 +1,20 @@
+// Verilog instantiation template created from schematic C:\Users\DreaMxickZen\Desktop\DigitalLab\Lab9\Lab9\Mux_Swap_LED_4.sch - Sun Nov 06 00:48:51 2022
+//
+// Notes: 
+// To use this template to instantiate this component,cut-and-paste and then edit
+//
+// Instantiate the UUT
+   Mux_Swap_LED_4 UUT (
+		.Select_Mux(    ), 
+		.CLR_MUX_CLK(    ), 
+		.COUNTER_DECODE(    ), 
+		.OUT_A(    ), 
+		.OUT_B(    ), 
+		.OUT_C(    ), 
+		.OUT_D(    ), 
+		.OSC(    ), 
+		.A(    ), 
+		.D(    ), 
+		.B(    ), 
+		.C(    )
+   );
